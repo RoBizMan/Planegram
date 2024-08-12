@@ -6,5 +6,5 @@ from .models import Gram
 
 def homepage(request):
     return render(
-        request, "base_copy.html"
+        request, "blog/index.html"
     )
