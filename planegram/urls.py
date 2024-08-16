@@ -21,5 +21,6 @@ from blog import views as index_views
 urlpatterns = [
     path('home/', index_views.homepage, name="home"),
     path('accounts/', include("allauth.urls")),
+    path('upload/', include('upload.urls')),
     path('admin/', admin.site.urls),
 ]
