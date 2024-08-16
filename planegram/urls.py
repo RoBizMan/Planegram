@@ -16,10 +16,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from blog import views as index_views
 
 urlpatterns = [
-    path('home/', index_views.homepage, name="home"),
+    path("", include("blog.urls")),
     path('accounts/', include("allauth.urls")),
     path('upload/', include('upload.urls')),
     path('admin/', admin.site.urls),

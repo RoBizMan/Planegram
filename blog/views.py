@@ -1,6 +1,5 @@
 from django.shortcuts import render
-from django.views import generic
-from .models import Gram
+from . import views
 
 # Create your views here.
 

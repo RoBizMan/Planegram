@@ -1,6 +1,10 @@
 {% load static %}
 
-{% url 'home' as home_url %}
+{% url 'homepage' as blog_url %}
+{% url 'upload' as upload_url %}
+{% url 'account_login' as login_url %}
+{% url 'account_signup' as signup_url %}
+{% url 'account_logout' as logout_url %}
 
 <!DOCTYPE html>
 <html lang="en">
@@ -40,11 +44,11 @@
             <div class="container-fluid">
 
                 <!-- Switchable logo based on screen size -->
-                <a class="navbar-brand" href="#"><img src="{% static 'images/planegram_logo_small.png' %}"
-                        alt="Planegram" class="logo-small-screen">
+                <a class="navbar-brand" href="{% url 'homepage' %}"><img
+                        src="{% static 'images/planegram_logo_small.png' %}" alt="Planegram" class="logo-small-screen">
                 </a>
-                <a class="navbar-brand" href="#"><img src="{% static 'images/planegram_logo_large.png' %}"
-                        alt="Planegram" class="logo-large-screen">
+                <a class="navbar-brand" href="{% url 'homepage' %}"><img
+                        src="{% static 'images/planegram_logo_large.png' %}" alt="Planegram" class="logo-large-screen">
                 </a>
 
                 <!-- Menu toggler -->
@@ -58,7 +62,8 @@
                     <!-- Page links -->
                     <ul class="navbar-nav nav-underline ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link {% if request.path == blog_url %}active" aria-current="page{% endif %}"
+                                href="{% url 'homepage' %}">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Grams</a>
@@ -67,20 +72,22 @@
                         <!-- Upload link only appears for registered users -->
                         {% if user.is_authenticated %}
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Upload</a>
+                            <a class="nav-link {% if request.path == upload_url %}active" aria-current="page{% endif %}"
+                                href="{% url 'upload' %}">Upload</a>
                         </li>
                         {% endif %}
                     </ul>
 
                     <!-- Sign Out button appears once registered user is logged in -->
                     {% if user.is_authenticated %}
-                    <a class="btn btn-outline-light signlog-button" role="button">Sign
-                        Out</a> <!-- href="{ url 'logout' }" -->
+                    <a class=" btn btn-outline-light signlog-button" role="button"
+                        href="{% url 'account_logout' %}">Sign
+                        Out</a>
                     {% else %}
-                    <a class="btn btn-warning signlog-button" role="button">Sign Up</a>
-                    <!-- href="{ url 'signup' }" -->
-                    <a class="btn btn-outline-light signlog-button-sm" role="button">Login</a>
-                    <!-- href="{ url 'login' }" -->
+                    <a class="btn btn-warning signlog-button" role="button" href="{% url 'account_signup' %}">Sign
+                        Up</a>
+                    <a class="btn btn-outline-light signlog-button-sm" role="button"
+                        href="{% url 'account_login' %}">Login</a>
                     {% endif %}
                 </div>
             </div>
@@ -99,8 +106,8 @@
         <div class="col-md-4 d-flex align-items-center">
 
             <!-- Footer logo only appears on larger screens -->
-            <a class="navbar-brand" href="#"><img src="{% static 'images/planegram_logo_small.png' %}" alt="Planegram"
-                    class="logo-footer">
+            <a class="navbar-brand" href="{% url 'homepage' %}"><img
+                    src="{% static 'images/planegram_logo_small.png' %}" alt="Planegram" class="logo-footer">
             </a>
             <span class="text-light footer-custom-text">© Planegram 2024</span>
         </div>
@@ -108,19 +115,19 @@
 
             <!-- Social media links -->
             <li class="ms-3">
-                <a target="_blank" href="#">
+                <a target="_blank" href="https://www.facebook.com/">
                     <i class="fa-brands fa-facebook" aria-hidden="true"></i>
                     <span class="sr-only">Facebook</span>
                 </a>
             </li>
             <li class="ms-3">
-                <a target="_blank" href="#">
+                <a target="_blank" href="https://www.instagram.com/">
                     <i class="fa-brands fa-instagram" aria-hidden="true"></i>
                     <span class="sr-only">Instagram</span>
                 </a>
             </li>
             <li class="ms-3">
-                <a target="_blank" href="#">
+                <a target="_blank" href="https://x.com/">
                     <i class="fa-brands fa-x-twitter" aria-hidden="true"></i>
                     <span class="sr-only">X</span>
                 </a>

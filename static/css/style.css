@@ -46,6 +46,10 @@
     margin-top: 10px;
 }
 
+.logbtn-sm {
+    margin-bottom: 10px;
+}
+
 /* Logo */
 .logo-large-screen {
     display: none;

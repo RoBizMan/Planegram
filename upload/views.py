@@ -6,7 +6,7 @@ from .forms import GramUpload
 from blog.models import Aircraft
 
 # View for handling Gram uploads
-def gram_post(request):
+def upload_gram(request):
     if request.method == 'POST':
         form = GramUpload(request.POST, request.FILES)
         if form.is_valid():
