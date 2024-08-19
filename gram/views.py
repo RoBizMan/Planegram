@@ -1,7 +1,8 @@
 from django.shortcuts import render, get_object_or_404, redirect
 from django.core.paginator import Paginator
-from blog.models import Gram
+from blog.models import Gram, Report
 from upload.forms import GramUpload
+from .forms import ReportForm
 from django.contrib.auth.decorators import login_required
 from django.urls import reverse
 from django.contrib import messages
@@ -13,7 +14,7 @@ def grams_list(request):
     grams = Gram.objects.all().order_by('-created_on')
     
     # Paginate the results
-    paginator = Paginator(grams, 10)  # Show 10 grams per page
+    paginator = Paginator(grams, 6)  # Show 6 grams per page
     page_number = request.GET.get('page')
     page_obj = paginator.get_page(page_number)
 
@@ -67,3 +68,26 @@ def edit_gram(request, pk):
         form = GramUpload(instance=gram)  # Populate the form with the current gram data
 
     return render(request, 'gram/edit_gram.html', {'form': form, 'gram': gram})
+
+@login_required
+def report_gram(request, pk):
+    gram = get_object_or_404(Gram, id=pk)
+
+    # Check if the user has already reported this gram
+    if Report.objects.filter(gram=gram, user=request.user).exists():
+        messages.warning(request, "You have already reported this gram.")  # Danger message
+        return redirect('gram_detail', pk=gram.id)
+
+    if request.method == 'POST':
+        form = ReportForm(request.POST)
+        if form.is_valid():
+            report = form.save(commit=False)
+            report.gram = gram
+            report.user = request.user
+            report.save()
+            messages.success(request, "You have successfully reported this gram.")  # Success message
+            return redirect('gram_detail', pk=gram.id)  # Redirect to gram detail after reporting
+    else:
+        form = ReportForm()
+
+    return render(request, 'gram/report_gram.html', {'form': form})

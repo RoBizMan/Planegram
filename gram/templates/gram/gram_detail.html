@@ -1,5 +1,5 @@
 {% extends 'base.html' %}
-
+{% load static %}
 {% block content %}
 <div class="container my-5">
     <div class="row justify-content-center">
@@ -27,18 +27,24 @@
                         </button>
                         {% endif %}
                         {% if request.user == gram.photographer %}
-                        <a href="{% url 'edit_gram' gram.id %}" class="btn btn-warning"><i
-                                class="fa-regular fa-pen-to-square like-icon text-dark"></i> Edit</a>
+                        <a href="{% url 'edit_gram' gram.id %}" class="btn btn-warning">
+                            <i class="fa-regular fa-pen-to-square like-icon text-dark"></i> Edit
+                        </a>
+                        {% else %}
+                        <a href="{% url 'report_gram' gram.id %}" class="btn btn-secondary">
+                            <i class="fa-solid fa-flag like-icon"></i> Report
+                        </a>
                         {% endif %}
                         {% else %}
                         <p class="text-danger">You must be logged in to like this gram.</p>
                         <a href="{% url 'account_login' %}?next={% url 'gram_detail' gram.id %}"
-                            class="btn btn-outline-light">Login</a>
+                            class="btn btn-warning">Login</a>
                         {% endif %}
 
                         {% if request.user == gram.photographer %}
                         <button type="button" class="btn btn-danger" data-bs-toggle="modal"
-                            data-bs-target="#deleteModal"><i class="fa-solid fa-trash-can like-icon"></i> Delete
+                            data-bs-target="#deleteModal">
+                            <i class="fa-solid fa-trash-can like-icon"></i> Delete
                         </button>
                         {% endif %}
                     </form>

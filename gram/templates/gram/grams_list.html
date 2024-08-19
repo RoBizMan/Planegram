@@ -7,9 +7,9 @@
     <div class="row" id="gram-container">
         {% for gram in page_obj %}
         <div class="col-lg-4 col-md-6 col-xs-12 mb-4">
-            <div class="card shadow-sm">
+            <div class="card shadow-sm card-height">
                 <a href="{% url 'gram_detail' gram.id %}">
-                    <img src="{{ gram.image.url }}" class="card-img-top" alt="{{ gram.caption }}">
+                    <img src="{{ gram.image.url }}" class="card-img-top img-centered" alt="{{ gram.caption }}">
                     <div class="card-body">
                         <h5 class="card-title text-dark">{{ gram.caption }}</h5>
                         <p class="card-text text-dark">Photographed by: {{ gram.photographer.username }}</p>
@@ -19,13 +19,13 @@
         </div>
         {% empty %}
         <div class="col-12">
-            <p class="text-center">No grams available at the moment.</p>
+            <p class="text-center mb-4">No grams available at the moment.</p>
         </div>
         {% endfor %}
     </div>
 
     {% if page_obj.has_next %}
-    <div class="text-center mt-4">
+    <div class="text-center mt-4 mb-4">
         <button id="load-more" class="btn btn-primary">Load More</button>
     </div>
     {% endif %}
