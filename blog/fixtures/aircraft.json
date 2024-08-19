@@ -1,0 +1,2322 @@
+[
+    {
+        "model": "blog.Aircraft",
+        "pk": 1,
+        "fields": {
+            "plane_make": "Airbus",
+            "plane_model": "A220"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 2,
+        "fields": {
+            "plane_make": "Airbus",
+            "plane_model": "A220-100"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 3,
+        "fields": {
+            "plane_make": "Airbus",
+            "plane_model": "A220-300"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 4,
+        "fields": {
+            "plane_make": "Airbus",
+            "plane_model": "A300"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 5,
+        "fields": {
+            "plane_make": "Airbus",
+            "plane_model": "A300-600R"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 6,
+        "fields": {
+            "plane_make": "Airbus",
+            "plane_model": "A300B4"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 7,
+        "fields": {
+            "plane_make": "Airbus",
+            "plane_model": "A310"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 8,
+        "fields": {
+            "plane_make": "Airbus",
+            "plane_model": "A310-300"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 9,
+        "fields": {
+            "plane_make": "Airbus",
+            "plane_model": "A318"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 10,
+        "fields": {
+            "plane_make": "Airbus",
+            "plane_model": "A318 Elite"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 11,
+        "fields": {
+            "plane_make": "Airbus",
+            "plane_model": "A319"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 12,
+        "fields": {
+            "plane_make": "Airbus",
+            "plane_model": "A319CJ"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 13,
+        "fields": {
+            "plane_make": "Airbus",
+            "plane_model": "A319neo"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 14,
+        "fields": {
+            "plane_make": "Airbus",
+            "plane_model": "A320"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 15,
+        "fields": {
+            "plane_make": "Airbus",
+            "plane_model": "A320ceo"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 16,
+        "fields": {
+            "plane_make": "Airbus",
+            "plane_model": "A320neo"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 17,
+        "fields": {
+            "plane_make": "Airbus",
+            "plane_model": "A321"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 18,
+        "fields": {
+            "plane_make": "Airbus",
+            "plane_model": "A321ceo"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 19,
+        "fields": {
+            "plane_make": "Airbus",
+            "plane_model": "A321neo"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 20,
+        "fields": {
+            "plane_make": "Airbus",
+            "plane_model": "A321XLR"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 21,
+        "fields": {
+            "plane_make": "Airbus",
+            "plane_model": "A330"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 22,
+        "fields": {
+            "plane_make": "Airbus",
+            "plane_model": "A330 MRTT"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 23,
+        "fields": {
+            "plane_make": "Airbus",
+            "plane_model": "A330-200"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 24,
+        "fields": {
+            "plane_make": "Airbus",
+            "plane_model": "A330-200F"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 25,
+        "fields": {
+            "plane_make": "Airbus",
+            "plane_model": "A330-300"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 26,
+        "fields": {
+            "plane_make": "Airbus",
+            "plane_model": "A330-800"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 27,
+        "fields": {
+            "plane_make": "Airbus",
+            "plane_model": "A330-900"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 28,
+        "fields": {
+            "plane_make": "Airbus",
+            "plane_model": "A330neo"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 29,
+        "fields": {
+            "plane_make": "Airbus",
+            "plane_model": "A340"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 30,
+        "fields": {
+            "plane_make": "Airbus",
+            "plane_model": "A340-200"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 31,
+        "fields": {
+            "plane_make": "Airbus",
+            "plane_model": "A340-300"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 32,
+        "fields": {
+            "plane_make": "Airbus",
+            "plane_model": "A340-500"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 33,
+        "fields": {
+            "plane_make": "Airbus",
+            "plane_model": "A340-600"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 34,
+        "fields": {
+            "plane_make": "Airbus",
+            "plane_model": "A350"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 35,
+        "fields": {
+            "plane_make": "Airbus",
+            "plane_model": "A350-1000"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 36,
+        "fields": {
+            "plane_make": "Airbus",
+            "plane_model": "A350-800"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 37,
+        "fields": {
+            "plane_make": "Airbus",
+            "plane_model": "A350-900"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 38,
+        "fields": {
+            "plane_make": "Airbus",
+            "plane_model": "A380"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 39,
+        "fields": {
+            "plane_make": "Airbus",
+            "plane_model": "BelugaXL"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 40,
+        "fields": {
+            "plane_make": "ATR",
+            "plane_model": "42"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 41,
+        "fields": {
+            "plane_make": "ATR",
+            "plane_model": "72"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 42,
+        "fields": {
+            "plane_make": "ATR",
+            "plane_model": "42-300"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 43,
+        "fields": {
+            "plane_make": "ATR",
+            "plane_model": "42-600S"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 44,
+        "fields": {
+            "plane_make": "ATR",
+            "plane_model": "72-500"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 45,
+        "fields": {
+            "plane_make": "ATR",
+            "plane_model": "72-600"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 46,
+        "fields": {
+            "plane_make": "ATR",
+            "plane_model": "82-600"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 47,
+        "fields": {
+            "plane_make": "BAe",
+            "plane_model": "Jetstream 41"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 48,
+        "fields": {
+            "plane_make": "Beechcraft",
+            "plane_model": "1900D"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 49,
+        "fields": {
+            "plane_make": "Beechcraft",
+            "plane_model": "Baron 58"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 50,
+        "fields": {
+            "plane_make": "Beechcraft",
+            "plane_model": "King Air"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 51,
+        "fields": {
+            "plane_make": "Beechcraft",
+            "plane_model": "King Air 350"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 52,
+        "fields": {
+            "plane_make": "Beechcraft",
+            "plane_model": "Super King Air"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 53,
+        "fields": {
+            "plane_make": "Boeing",
+            "plane_model": "707"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 54,
+        "fields": {
+            "plane_make": "Boeing",
+            "plane_model": "717"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 55,
+        "fields": {
+            "plane_make": "Boeing",
+            "plane_model": "720"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 56,
+        "fields": {
+            "plane_make": "Boeing",
+            "plane_model": "727"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 57,
+        "fields": {
+            "plane_make": "Boeing",
+            "plane_model": "737"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 58,
+        "fields": {
+            "plane_make": "Boeing",
+            "plane_model": "747"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 59,
+        "fields": {
+            "plane_make": "Boeing",
+            "plane_model": "757"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 60,
+        "fields": {
+            "plane_make": "Boeing",
+            "plane_model": "767"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 61,
+        "fields": {
+            "plane_make": "Boeing",
+            "plane_model": "777"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 62,
+        "fields": {
+            "plane_make": "Boeing",
+            "plane_model": "787"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 63,
+        "fields": {
+            "plane_make": "Boeing",
+            "plane_model": "707-320"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 64,
+        "fields": {
+            "plane_make": "Boeing",
+            "plane_model": "727-200"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 65,
+        "fields": {
+            "plane_make": "Boeing",
+            "plane_model": "737 MAX"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 66,
+        "fields": {
+            "plane_make": "Boeing",
+            "plane_model": "737 MAX 7"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 67,
+        "fields": {
+            "plane_make": "Boeing",
+            "plane_model": "737 MAX 8"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 68,
+        "fields": {
+            "plane_make": "Boeing",
+            "plane_model": "737 MAX 9"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 69,
+        "fields": {
+            "plane_make": "Boeing",
+            "plane_model": "737-200"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 70,
+        "fields": {
+            "plane_make": "Boeing",
+            "plane_model": "737-300"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 71,
+        "fields": {
+            "plane_make": "Boeing",
+            "plane_model": "737-400"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 72,
+        "fields": {
+            "plane_make": "Boeing",
+            "plane_model": "737-500"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 73,
+        "fields": {
+            "plane_make": "Boeing",
+            "plane_model": "737-600"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 74,
+        "fields": {
+            "plane_make": "Boeing",
+            "plane_model": "737-700"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 75,
+        "fields": {
+            "plane_make": "Boeing",
+            "plane_model": "737-700C"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 76,
+        "fields": {
+            "plane_make": "Boeing",
+            "plane_model": "737-800"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 77,
+        "fields": {
+            "plane_make": "Boeing",
+            "plane_model": "737-900"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 78,
+        "fields": {
+            "plane_make": "Boeing",
+            "plane_model": "747-200"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 79,
+        "fields": {
+            "plane_make": "Boeing",
+            "plane_model": "747-300"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 80,
+        "fields": {
+            "plane_make": "Boeing",
+            "plane_model": "747-400"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 81,
+        "fields": {
+            "plane_make": "Boeing",
+            "plane_model": "747-8"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 82,
+        "fields": {
+            "plane_make": "Boeing",
+            "plane_model": "747SP"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 83,
+        "fields": {
+            "plane_make": "Boeing",
+            "plane_model": "757-200"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 84,
+        "fields": {
+            "plane_make": "Boeing",
+            "plane_model": "757-300"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 85,
+        "fields": {
+            "plane_make": "Boeing",
+            "plane_model": "757-300F"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 86,
+        "fields": {
+            "plane_make": "Boeing",
+            "plane_model": "767-200"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 87,
+        "fields": {
+            "plane_make": "Boeing",
+            "plane_model": "767-300"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 88,
+        "fields": {
+            "plane_make": "Boeing",
+            "plane_model": "767-300F"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 89,
+        "fields": {
+            "plane_make": "Boeing",
+            "plane_model": "767-400ER"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 90,
+        "fields": {
+            "plane_make": "Boeing",
+            "plane_model": "777-200"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 91,
+        "fields": {
+            "plane_make": "Boeing",
+            "plane_model": "777-200ER"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 92,
+        "fields": {
+            "plane_make": "Boeing",
+            "plane_model": "777-300"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 93,
+        "fields": {
+            "plane_make": "Boeing",
+            "plane_model": "777-300ER"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 94,
+        "fields": {
+            "plane_make": "Boeing",
+            "plane_model": "777F"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 95,
+        "fields": {
+            "plane_make": "Boeing",
+            "plane_model": "777X"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 96,
+        "fields": {
+            "plane_make": "Boeing",
+            "plane_model": "787-10"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 97,
+        "fields": {
+            "plane_make": "Boeing",
+            "plane_model": "787-3"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 98,
+        "fields": {
+            "plane_make": "Boeing",
+            "plane_model": "787-8"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 99,
+        "fields": {
+            "plane_make": "Boeing",
+            "plane_model": "787-8F"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 100,
+        "fields": {
+            "plane_make": "Boeing",
+            "plane_model": "787-9"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 101,
+        "fields": {
+            "plane_make": "Boeing",
+            "plane_model": "787-9 Dreamliner"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 102,
+        "fields": {
+            "plane_make": "Boeing",
+            "plane_model": "BBJ (Boeing Business Jet)"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 103,
+        "fields": {
+            "plane_make": "Bombardier",
+            "plane_model": "Challenger 300"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 104,
+        "fields": {
+            "plane_make": "Bombardier",
+            "plane_model": "Challenger 350"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 105,
+        "fields": {
+            "plane_make": "Bombardier",
+            "plane_model": "Challenger 600"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 106,
+        "fields": {
+            "plane_make": "Bombardier",
+            "plane_model": "Challenger 601"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 107,
+        "fields": {
+            "plane_make": "Bombardier",
+            "plane_model": "Challenger 604"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 108,
+        "fields": {
+            "plane_make": "Bombardier",
+            "plane_model": "Challenger 605"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 109,
+        "fields": {
+            "plane_make": "Bombardier",
+            "plane_model": "Challenger 650"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 110,
+        "fields": {
+            "plane_make": "Bombardier",
+            "plane_model": "CRJ100"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 111,
+        "fields": {
+            "plane_make": "Bombardier",
+            "plane_model": "CRJ1000"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 112,
+        "fields": {
+            "plane_make": "Bombardier",
+            "plane_model": "CRJ200"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 113,
+        "fields": {
+            "plane_make": "Bombardier",
+            "plane_model": "CRJ550"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 114,
+        "fields": {
+            "plane_make": "Bombardier",
+            "plane_model": "CRJ700"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 115,
+        "fields": {
+            "plane_make": "Bombardier",
+            "plane_model": "CRJ900"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 116,
+        "fields": {
+            "plane_make": "Bombardier",
+            "plane_model": "CS100"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 117,
+        "fields": {
+            "plane_make": "Bombardier",
+            "plane_model": "CS300"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 118,
+        "fields": {
+            "plane_make": "Bombardier",
+            "plane_model": "Dash 8-100"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 119,
+        "fields": {
+            "plane_make": "Bombardier",
+            "plane_model": "Dash 8-200"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 120,
+        "fields": {
+            "plane_make": "Bombardier",
+            "plane_model": "Dash 8-300"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 121,
+        "fields": {
+            "plane_make": "Bombardier",
+            "plane_model": "Global 5000"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 122,
+        "fields": {
+            "plane_make": "Bombardier",
+            "plane_model": "Global 5500"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 123,
+        "fields": {
+            "plane_make": "Bombardier",
+            "plane_model": "Global 6000"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 124,
+        "fields": {
+            "plane_make": "Bombardier",
+            "plane_model": "Global 6500"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 125,
+        "fields": {
+            "plane_make": "Bombardier",
+            "plane_model": "Global Express"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 126,
+        "fields": {
+            "plane_make": "Bombardier",
+            "plane_model": "Learjet 31"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 127,
+        "fields": {
+            "plane_make": "Bombardier",
+            "plane_model": "Learjet 35"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 128,
+        "fields": {
+            "plane_make": "Bombardier",
+            "plane_model": "Learjet 45"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 129,
+        "fields": {
+            "plane_make": "Bombardier",
+            "plane_model": "Learjet 55"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 130,
+        "fields": {
+            "plane_make": "Bombardier",
+            "plane_model": "Learjet 60"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 131,
+        "fields": {
+            "plane_make": "Bombardier",
+            "plane_model": "Learjet 70"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 132,
+        "fields": {
+            "plane_make": "Bombardier",
+            "plane_model": "Learjet 75"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 133,
+        "fields": {
+            "plane_make": "Bombardier",
+            "plane_model": "Learjet 85"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 134,
+        "fields": {
+            "plane_make": "Bombardier",
+            "plane_model": "Q400"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 135,
+        "fields": {
+            "plane_make": "Cessna",
+            "plane_model": "172"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 136,
+        "fields": {
+            "plane_make": "Cessna",
+            "plane_model": "182"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 137,
+        "fields": {
+            "plane_make": "Cessna",
+            "plane_model": "Citation"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 138,
+        "fields": {
+            "plane_make": "Cessna",
+            "plane_model": "Citation CJ4"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 139,
+        "fields": {
+            "plane_make": "Cessna",
+            "plane_model": "Citation Encore"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 140,
+        "fields": {
+            "plane_make": "Cessna",
+            "plane_model": "Citation Excel"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 141,
+        "fields": {
+            "plane_make": "Cessna",
+            "plane_model": "Citation Latitude"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 142,
+        "fields": {
+            "plane_make": "Cessna",
+            "plane_model": "Citation Longitude"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 143,
+        "fields": {
+            "plane_make": "Cessna",
+            "plane_model": "Citation M2"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 144,
+        "fields": {
+            "plane_make": "Cessna",
+            "plane_model": "Citation Mustang"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 145,
+        "fields": {
+            "plane_make": "Cessna",
+            "plane_model": "Citation Sovereign"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 146,
+        "fields": {
+            "plane_make": "Cessna",
+            "plane_model": "Citation Sovereign+"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 147,
+        "fields": {
+            "plane_make": "Cessna",
+            "plane_model": "Citation X"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 148,
+        "fields": {
+            "plane_make": "Cessna",
+            "plane_model": "Citation XLS"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 149,
+        "fields": {
+            "plane_make": "Cessna",
+            "plane_model": "CitationJet"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 150,
+        "fields": {
+            "plane_make": "Dassault",
+            "plane_model": "Falcon 10"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 151,
+        "fields": {
+            "plane_make": "Dassault",
+            "plane_model": "Falcon 20"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 152,
+        "fields": {
+            "plane_make": "Dassault",
+            "plane_model": "Falcon 2000"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 153,
+        "fields": {
+            "plane_make": "Dassault",
+            "plane_model": "Falcon 2000EX"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 154,
+        "fields": {
+            "plane_make": "Dassault",
+            "plane_model": "Falcon 2000LX"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 155,
+        "fields": {
+            "plane_make": "Dassault",
+            "plane_model": "Falcon 50"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 156,
+        "fields": {
+            "plane_make": "Dassault",
+            "plane_model": "Falcon 50DX"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 157,
+        "fields": {
+            "plane_make": "Dassault",
+            "plane_model": "Falcon 50EX"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 158,
+        "fields": {
+            "plane_make": "Dassault",
+            "plane_model": "Falcon 6X"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 159,
+        "fields": {
+            "plane_make": "Dassault",
+            "plane_model": "Falcon 7X"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 160,
+        "fields": {
+            "plane_make": "Dassault",
+            "plane_model": "Falcon 8X"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 161,
+        "fields": {
+            "plane_make": "Dassault",
+            "plane_model": "Falcon 900"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 162,
+        "fields": {
+            "plane_make": "Dassault",
+            "plane_model": "Falcon 900DX"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 163,
+        "fields": {
+            "plane_make": "Dassault",
+            "plane_model": "Falcon 900EX"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 164,
+        "fields": {
+            "plane_make": "Dassault",
+            "plane_model": "Falcon 900LX"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 165,
+        "fields": {
+            "plane_make": "De Havilland",
+            "plane_model": "Dash 8"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 166,
+        "fields": {
+            "plane_make": "De Havilland",
+            "plane_model": "DHC-6 Twin Otter"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 167,
+        "fields": {
+            "plane_make": "Dornier",
+            "plane_model": "228"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 168,
+        "fields": {
+            "plane_make": "Dornier",
+            "plane_model": "328"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 169,
+        "fields": {
+            "plane_make": "Dornier",
+            "plane_model": "328-100"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 170,
+        "fields": {
+            "plane_make": "Dornier",
+            "plane_model": "328-300"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 171,
+        "fields": {
+            "plane_make": "Dornier",
+            "plane_model": "328JET"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 172,
+        "fields": {
+            "plane_make": "Embraer",
+            "plane_model": "E120 Brasilia"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 173,
+        "fields": {
+            "plane_make": "Embraer",
+            "plane_model": "E140"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 174,
+        "fields": {
+            "plane_make": "Embraer",
+            "plane_model": "E170"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 175,
+        "fields": {
+            "plane_make": "Embraer",
+            "plane_model": "E170-100STD"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 176,
+        "fields": {
+            "plane_make": "Embraer",
+            "plane_model": "E175"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 177,
+        "fields": {
+            "plane_make": "Embraer",
+            "plane_model": "E175-E2"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 178,
+        "fields": {
+            "plane_make": "Embraer",
+            "plane_model": "E190"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 179,
+        "fields": {
+            "plane_make": "Embraer",
+            "plane_model": "E190-E2"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 180,
+        "fields": {
+            "plane_make": "Embraer",
+            "plane_model": "E195"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 181,
+        "fields": {
+            "plane_make": "Embraer",
+            "plane_model": "E195-E1"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 182,
+        "fields": {
+            "plane_make": "Embraer",
+            "plane_model": "E195-E2"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 183,
+        "fields": {
+            "plane_make": "Embraer",
+            "plane_model": "ERJ135"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 184,
+        "fields": {
+            "plane_make": "Embraer",
+            "plane_model": "ERJ140"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 185,
+        "fields": {
+            "plane_make": "Embraer",
+            "plane_model": "ERJ145"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 186,
+        "fields": {
+            "plane_make": "Embraer",
+            "plane_model": "ERJ145EP"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 187,
+        "fields": {
+            "plane_make": "Embraer",
+            "plane_model": "ERJ145LR"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 188,
+        "fields": {
+            "plane_make": "Embraer",
+            "plane_model": "ERJ145XR"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 189,
+        "fields": {
+            "plane_make": "Embraer",
+            "plane_model": "Legacy 450"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 190,
+        "fields": {
+            "plane_make": "Embraer",
+            "plane_model": "Legacy 500"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 191,
+        "fields": {
+            "plane_make": "Embraer",
+            "plane_model": "Legacy 600"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 192,
+        "fields": {
+            "plane_make": "Embraer",
+            "plane_model": "Legacy 650"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 193,
+        "fields": {
+            "plane_make": "Embraer",
+            "plane_model": "Lineage 1000"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 194,
+        "fields": {
+            "plane_make": "Embraer",
+            "plane_model": "Phenom 100"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 195,
+        "fields": {
+            "plane_make": "Embraer",
+            "plane_model": "Phenom 100E"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 196,
+        "fields": {
+            "plane_make": "Embraer",
+            "plane_model": "Phenom 300"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 197,
+        "fields": {
+            "plane_make": "Embraer",
+            "plane_model": "Phenom 300E"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 198,
+        "fields": {
+            "plane_make": "Embraer",
+            "plane_model": "Praetor 500"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 199,
+        "fields": {
+            "plane_make": "Embraer",
+            "plane_model": "Praetor 600"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 200,
+        "fields": {
+            "plane_make": "Fokker",
+            "plane_model": "50"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 201,
+        "fields": {
+            "plane_make": "Fokker",
+            "plane_model": "70"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 202,
+        "fields": {
+            "plane_make": "Fokker",
+            "plane_model": "100"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 203,
+        "fields": {
+            "plane_make": "Fokker",
+            "plane_model": "F27"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 204,
+        "fields": {
+            "plane_make": "Fokker",
+            "plane_model": "F27 Mk 050"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 205,
+        "fields": {
+            "plane_make": "Fokker",
+            "plane_model": "F27 Mk 500"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 206,
+        "fields": {
+            "plane_make": "Fokker",
+            "plane_model": "F28"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 207,
+        "fields": {
+            "plane_make": "Fokker",
+            "plane_model": "F28-1000"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 208,
+        "fields": {
+            "plane_make": "Fokker",
+            "plane_model": "F28-3000"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 209,
+        "fields": {
+            "plane_make": "Fokker",
+            "plane_model": "F28-4000"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 210,
+        "fields": {
+            "plane_make": "Fokker",
+            "plane_model": "F50"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 211,
+        "fields": {
+            "plane_make": "Fokker",
+            "plane_model": "F70"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 212,
+        "fields": {
+            "plane_make": "Gulfstream",
+            "plane_model": "G100"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 213,
+        "fields": {
+            "plane_make": "Gulfstream",
+            "plane_model": "G150"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 214,
+        "fields": {
+            "plane_make": "Gulfstream",
+            "plane_model": "G200"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 215,
+        "fields": {
+            "plane_make": "Gulfstream",
+            "plane_model": "G280"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 216,
+        "fields": {
+            "plane_make": "Gulfstream",
+            "plane_model": "G300"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 217,
+        "fields": {
+            "plane_make": "Gulfstream",
+            "plane_model": "G350"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 218,
+        "fields": {
+            "plane_make": "Gulfstream",
+            "plane_model": "G400"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 219,
+        "fields": {
+            "plane_make": "Gulfstream",
+            "plane_model": "G500"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 220,
+        "fields": {
+            "plane_make": "Gulfstream",
+            "plane_model": "G550"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 221,
+        "fields": {
+            "plane_make": "Gulfstream",
+            "plane_model": "G600"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 222,
+        "fields": {
+            "plane_make": "Gulfstream",
+            "plane_model": "G650"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 223,
+        "fields": {
+            "plane_make": "Gulfstream",
+            "plane_model": "G700"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 224,
+        "fields": {
+            "plane_make": "Gulfstream",
+            "plane_model": "G800"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 225,
+        "fields": {
+            "plane_make": "Gulfstream",
+            "plane_model": "GII"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 226,
+        "fields": {
+            "plane_make": "Gulfstream",
+            "plane_model": "GIII"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 227,
+        "fields": {
+            "plane_make": "Gulfstream",
+            "plane_model": "GIV"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 228,
+        "fields": {
+            "plane_make": "Gulfstream",
+            "plane_model": "GIV-SP"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 229,
+        "fields": {
+            "plane_make": "Gulfstream",
+            "plane_model": "GIV-X"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 230,
+        "fields": {
+            "plane_make": "Gulfstream",
+            "plane_model": "GV"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 231,
+        "fields": {
+            "plane_make": "Gulfstream",
+            "plane_model": "GVII"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 232,
+        "fields": {
+            "plane_make": "Hawker",
+            "plane_model": "700"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 233,
+        "fields": {
+            "plane_make": "Hawker",
+            "plane_model": "800"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 234,
+        "fields": {
+            "plane_make": "Hawker",
+            "plane_model": "1000"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 235,
+        "fields": {
+            "plane_make": "Hawker",
+            "plane_model": "4000"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 236,
+        "fields": {
+            "plane_make": "Hawker",
+            "plane_model": "400XP"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 237,
+        "fields": {
+            "plane_make": "Hawker",
+            "plane_model": "800XP"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 238,
+        "fields": {
+            "plane_make": "Hawker",
+            "plane_model": "850XP"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 239,
+        "fields": {
+            "plane_make": "Hawker",
+            "plane_model": "900XP"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 240,
+        "fields": {
+            "plane_make": "HondaJet",
+            "plane_model": "Elite S"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 241,
+        "fields": {
+            "plane_make": "HondaJet",
+            "plane_model": "HA-420"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 242,
+        "fields": {
+            "plane_make": "Ilyushin",
+            "plane_model": "IL-18"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 243,
+        "fields": {
+            "plane_make": "Ilyushin",
+            "plane_model": "IL-62"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 244,
+        "fields": {
+            "plane_make": "Ilyushin",
+            "plane_model": "IL-62M"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 245,
+        "fields": {
+            "plane_make": "Ilyushin",
+            "plane_model": "IL-76MD"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 246,
+        "fields": {
+            "plane_make": "Ilyushin",
+            "plane_model": "IL-86"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 247,
+        "fields": {
+            "plane_make": "Ilyushin",
+            "plane_model": "IL-96-300"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 248,
+        "fields": {
+            "plane_make": "Ilyushin",
+            "plane_model": "IL-96-400"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 249,
+        "fields": {
+            "plane_make": "Lockheed",
+            "plane_model": "C-130 Hercules"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 250,
+        "fields": {
+            "plane_make": "Lockheed",
+            "plane_model": "L-1011 TriStar"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 251,
+        "fields": {
+            "plane_make": "McDonnell",
+            "plane_model": "MD-80"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 252,
+        "fields": {
+            "plane_make": "McDonnell",
+            "plane_model": "MD-90"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 253,
+        "fields": {
+            "plane_make": "Mitsubishi",
+            "plane_model": "MRJ70"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 254,
+        "fields": {
+            "plane_make": "Mitsubishi",
+            "plane_model": "MRJ90"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 255,
+        "fields": {
+            "plane_make": "Mitsubishi",
+            "plane_model": "MU-2"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 256,
+        "fields": {
+            "plane_make": "Mitsubishi",
+            "plane_model": "SpaceJet"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 257,
+        "fields": {
+            "plane_make": "Pilatus",
+            "plane_model": "PC-12"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 258,
+        "fields": {
+            "plane_make": "Pilatus",
+            "plane_model": "PC-21"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 259,
+        "fields": {
+            "plane_make": "Pilatus",
+            "plane_model": "PC-24"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 260,
+        "fields": {
+            "plane_make": "Saab",
+            "plane_model": "105"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 261,
+        "fields": {
+            "plane_make": "Saab",
+            "plane_model": "340"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 262,
+        "fields": {
+            "plane_make": "Saab",
+            "plane_model": "2000"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 263,
+        "fields": {
+            "plane_make": "Saab",
+            "plane_model": "37 Viggen"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 264,
+        "fields": {
+            "plane_make": "Saab",
+            "plane_model": "90 Scandia"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 265,
+        "fields": {
+            "plane_make": "Saab",
+            "plane_model": "SF340A"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 266,
+        "fields": {
+            "plane_make": "Saab",
+            "plane_model": "SF340B"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 267,
+        "fields": {
+            "plane_make": "Sukhoi",
+            "plane_model": "SSJ-100"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 268,
+        "fields": {
+            "plane_make": "Sukhoi",
+            "plane_model": "SSJ-100LR"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 269,
+        "fields": {
+            "plane_make": "Sukhoi",
+            "plane_model": "SSJ-130"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 270,
+        "fields": {
+            "plane_make": "Sukhoi",
+            "plane_model": "SSJ-130LR"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 271,
+        "fields": {
+            "plane_make": "Sukhoi",
+            "plane_model": "SSJ-75"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 272,
+        "fields": {
+            "plane_make": "Sukhoi",
+            "plane_model": "Superjet 100"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 273,
+        "fields": {
+            "plane_make": "Sukhoi",
+            "plane_model": "Superjet NG"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 274,
+        "fields": {
+            "plane_make": "Tupolev",
+            "plane_model": "TU-124"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 275,
+        "fields": {
+            "plane_make": "Tupolev",
+            "plane_model": "TU-134"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 276,
+        "fields": {
+            "plane_make": "Tupolev",
+            "plane_model": "TU-134A"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 277,
+        "fields": {
+            "plane_make": "Tupolev",
+            "plane_model": "TU-154"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 278,
+        "fields": {
+            "plane_make": "Tupolev",
+            "plane_model": "TU-204"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 279,
+        "fields": {
+            "plane_make": "Tupolev",
+            "plane_model": "TU-204-120"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 280,
+        "fields": {
+            "plane_make": "Tupolev",
+            "plane_model": "TU-214"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 281,
+        "fields": {
+            "plane_make": "Tupolev",
+            "plane_model": "TU-214-100"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 282,
+        "fields": {
+            "plane_make": "Tupolev",
+            "plane_model": "TU-214-200"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 283,
+        "fields": {
+            "plane_make": "Tupolev",
+            "plane_model": "TU-214ON"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 284,
+        "fields": {
+            "plane_make": "Tupolev",
+            "plane_model": "TU-334"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 285,
+        "fields": {
+            "plane_make": "Yakovlev",
+            "plane_model": "Yak-130"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 286,
+        "fields": {
+            "plane_make": "Yakovlev",
+            "plane_model": "Yak-28"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 287,
+        "fields": {
+            "plane_make": "Yakovlev",
+            "plane_model": "Yak-40"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 288,
+        "fields": {
+            "plane_make": "Yakovlev",
+            "plane_model": "Yak-42"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 289,
+        "fields": {
+            "plane_make": "Yakovlev",
+            "plane_model": "Yak-42D"
+        }
+    },
+    {
+        "model": "blog.Aircraft",
+        "pk": 290,
+        "fields": {
+            "plane_make": "Concorde",
+            "plane_model": "SSC"
+        }
+    }
+]

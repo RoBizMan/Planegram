@@ -10,7 +10,7 @@ DECISION = ((0, "Awaiting"), (1, "Accepted"), (2, "Rejected"))
 
 class Aircraft(models.Model):
     plane_make = models.CharField(max_length=40)
-    plane_model = models.CharField(max_length=20)
+    plane_model = models.CharField(max_length=40)
 
     class Meta:
         ordering = ["plane_make"]

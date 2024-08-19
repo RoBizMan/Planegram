@@ -5,51 +5,14 @@
 
 <div class="container-fluid p-5">
     <div class="text-center bg-primary p-5 mb-5 text-white">
-        <div class="row">
-            <h2>Upload your Gram!</h2>
-        </div>
-        <div class="row">
+        <h2>Upload your Gram!</h2>
+        <div class="form-container">
             <form method="POST" enctype="multipart/form-data">
                 {% csrf_token %}
                 {{ form|crispy }}
                 <div class="row justify-content-center mt-5">
                     <div class="col-md-auto">
-                        <button type="button" class="btn btn-outline-light signlog-button-sm" data-bs-toggle="modal"
-                            data-bs-target="#addPlaneModal">
-                            Add New Plane
-                        </button>
                         <button type="submit" class="btn btn-warning signlog-button">Submit</button>
-
-                        <!-- Modal for adding new plane -->
-                        <div class="modal fade" id="addPlaneModal" tabindex="-1" aria-labelledby="addPlaneModalLabel"
-                            aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title text-dark" id="addPlaneModalLabel">Add New Plane</h5>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                            aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <form id="addPlaneForm" method="POST" action="{% url 'add_plane' %}">
-                                            {% csrf_token %}
-                                            <div class="mb-3">
-                                                <label for="planeMake" class="form-label text-dark">Plane Make</label>
-                                                <input type="text" class="form-control" id="planeMake" name="planeMake"
-                                                    required>
-                                            </div>
-                                            <div class="mb-3">
-                                                <label for="planeModel" class="form-label text-dark">Plane Model</label>
-                                                <input type="text" class="form-control" id="planeModel"
-                                                    name="planeModel" required>
-                                            </div>
-                                            <button type="button" class="btn btn-primary" id="addPlaneButton">Add
-                                                Plane</button>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </form>
