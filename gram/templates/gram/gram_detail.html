@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container my-5">
+    <div class="row justify-content-center">
+        <div class="col">
+            <div class="card shadow-sm">
+                <img src="{{ gram.image.url }}" class="card-img-top" alt="{{ gram.caption }}">
+                <div class="card-body">
+                    <h5 class="card-title">{{ gram.caption }}</h5>
+                    <p class="card-text">Photographed by: {{ gram.photographer.username }}</p>
+                    <p class="card-text">Plane: {{ gram.plane }}</p>
+                    <p class="card-text">Date Photographed: {{ gram.date_photographed }}</p>
+                    <p class="card-text"><i class="fa-regular fa-heart text-dark like-icon"></i> {{ gram.love.count }}
+                    </p>
+
+                    <!-- Like/Unlike Form -->
+                    <form method="post">
+                        {% csrf_token %}
+                        {% if request.user in gram.love.all %}
+                        <button type="submit" name="unlike" class="btn btn-danger">
+                            <i class="fa-solid fa-heart-broken like-icon"></i> Unlike
+                        </button>
+                        {% else %}
+                        <button type="submit" name="like" class="btn btn-primary">
+                            <i class="fa-solid fa-heart like-icon"></i> Like
+                        </button>
+                        {% endif %}
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -118,19 +118,14 @@
         {% endblock content %}
     </main>
 
-    <footer
-        class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top footer-custom-color mt-auto fixed-bottom">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top footer-custom-color">
         <div class="col-md-4 d-flex align-items-center">
-
-            <!-- Footer logo only appears on larger screens -->
             <a class="navbar-brand" href="{% url 'homepage' %}"><img
                     src="{% static 'images/planegram_logo_small.png' %}" alt="Planegram" class="logo-footer">
             </a>
             <span class="text-light footer-custom-text">© Planegram 2024</span>
         </div>
         <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-
-            <!-- Social media links -->
             <li class="ms-3">
                 <a target="_blank" href="https://www.facebook.com/">
                     <i class="fa-brands fa-facebook" aria-hidden="true"></i>

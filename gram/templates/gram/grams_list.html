@@ -8,11 +8,13 @@
         {% for gram in page_obj %}
         <div class="col-lg-4 col-md-6 col-xs-12 mb-4">
             <div class="card shadow-sm">
-                <img src="{{ gram.image.url }}" class="card-img-top" alt="{{ gram.caption }}">
-                <div class="card-body">
-                    <h5 class="card-title">{{ gram.caption }}</h5>
-                    <p class="card-text">Photographed by: {{ gram.photographer.username }}</p>
-                </div>
+                <a href="{% url 'gram_detail' gram.id %}">
+                    <img src="{{ gram.image.url }}" class="card-img-top" alt="{{ gram.caption }}">
+                    <div class="card-body">
+                        <h5 class="card-title text-dark">{{ gram.caption }}</h5>
+                        <p class="card-text text-dark">Photographed by: {{ gram.photographer.username }}</p>
+                    </div>
+                </a>
             </div>
         </div>
         {% empty %}
