@@ -22,4 +22,5 @@ urlpatterns = [
     path('accounts/', include("allauth.urls")),
     path('upload/', include('upload.urls')),
     path('admin/', admin.site.urls),
+    path('grams/', include("gram.urls")),
 ]

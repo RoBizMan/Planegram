@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="container mt-4">
+    <h2 class="text-center mb-4">Explore Our Grams</h2>
+    <div class="row" id="gram-container">
+        {% for gram in page_obj %}
+        <div class="col-lg-4 col-md-6 col-xs-12 mb-4">
+            <div class="card shadow-sm">
+                <img src="{{ gram.image.url }}" class="card-img-top" alt="{{ gram.caption }}">
+                <div class="card-body">
+                    <h5 class="card-title">{{ gram.caption }}</h5>
+                    <p class="card-text">Photographed by: {{ gram.photographer.username }}</p>
+                </div>
+            </div>
+        </div>
+        {% empty %}
+        <div class="col-12">
+            <p class="text-center">No grams available at the moment.</p>
+        </div>
+        {% endfor %}
+    </div>
+
+    {% if page_obj.has_next %}
+    <div class="text-center mt-4">
+        <button id="load-more" class="btn btn-primary">Load More</button>
+    </div>
+    {% endif %}
+</div>
+{% endblock %}

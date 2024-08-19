@@ -66,7 +66,8 @@
                                 href="{% url 'homepage' %}">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Grams</a>
+                            <a class="nav-link {% if request.path == gram_url %}active" aria-current="page{% endif %}"
+                                href="{% url 'grams' %}">Grams</a>
                         </li>
 
                         <!-- Upload link only appears for registered users -->
@@ -93,6 +94,22 @@
             </div>
         </nav>
     </header>
+
+    <!-- Alert Messages -->
+    <div class="container mt-3">
+        {% if messages %}
+        <div id="alert-container">
+            {% for message in messages %}
+            <div class="alert alert-success alert-dismissible fade show" role="alert">
+                {{ message }}
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+    </div>
 
     <main>
         {% block content %}

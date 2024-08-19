@@ -58,11 +58,12 @@ INSTALLED_APPS = [
     'cloudinary_storage',
     'cloudinary',
     'blog',
+    'gram',
     'upload',
 ]
 
 SITE_ID = 1
-LOGIN_REDIRECT_URL = '/'
+LOGIN_REDIRECT_URL = '/grams/'
 LOGOUT_REDIRECT_URL = '/'
 
 CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"

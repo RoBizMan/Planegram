@@ -1,10 +1,8 @@
 from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib.auth.decorators import login_required
+from django.contrib import messages
 from .forms import GramUpload
 from blog.models import Aircraft
-
-
-# View for handling Gram uploads
 
 @login_required
 def upload_gram(request):
@@ -14,7 +12,7 @@ def upload_gram(request):
             gram = form.save(commit=False)
             gram.photographer = request.user
             gram.save()
-            return redirect('homepage')
+            return redirect('grams')
     else:
         form = GramUpload()
     
