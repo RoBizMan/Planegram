@@ -1,8 +1,10 @@
 from django.shortcuts import render, get_object_or_404, redirect
 from django.core.paginator import Paginator
 from blog.models import Gram
+from upload.forms import GramUpload
 from django.contrib.auth.decorators import login_required
 from django.urls import reverse
+from django.contrib import messages
 
 # Create your views here.
 
@@ -46,3 +48,22 @@ def gram_action(request, pk):
     
     return redirect('gram_detail', pk=pk)  # Redirect to the gram detail page if not POST
 
+@login_required
+def edit_gram(request, pk):
+    gram = get_object_or_404(Gram, pk=pk)
+
+    # Check if the logged-in user is the owner of the gram
+    if request.user != gram.photographer:
+        messages.error(request, "You are not authorised to edit this gram.")
+        return redirect('grams')  # Redirect to the grams list page
+
+    if request.method == 'POST':
+        form = GramUpload(request.POST, request.FILES, instance=gram)
+        if form.is_valid():
+            form.save()
+            messages.success(request, "Gram updated successfully!")
+            return redirect('gram_detail', pk=gram.pk)  # Redirect to the gram detail page
+    else:
+        form = GramUpload(instance=gram)  # Populate the form with the current gram data
+
+    return render(request, 'gram/edit_gram.html', {'form': form, 'gram': gram})

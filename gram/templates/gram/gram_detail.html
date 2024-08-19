@@ -26,6 +26,10 @@
                             <i class="fa-regular fa-heart like-icon"></i> Like
                         </button>
                         {% endif %}
+                        {% if request.user == gram.photographer %}
+                        <a href="{% url 'edit_gram' gram.id %}" class="btn btn-warning"><i
+                                class="fa-regular fa-pen-to-square like-icon text-dark"></i> Edit</a>
+                        {% endif %}
                         {% else %}
                         <p class="text-danger">You must be logged in to like this gram.</p>
                         <a href="{% url 'account_login' %}?next={% url 'gram_detail' gram.id %}"
@@ -34,8 +38,7 @@
 
                         {% if request.user == gram.photographer %}
                         <button type="button" class="btn btn-danger" data-bs-toggle="modal"
-                            data-bs-target="#deleteModal">
-                            Delete
+                            data-bs-target="#deleteModal"><i class="fa-solid fa-trash-can like-icon"></i> Delete
                         </button>
                         {% endif %}
                     </form>

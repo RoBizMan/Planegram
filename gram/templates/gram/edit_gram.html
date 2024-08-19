@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load crispy_forms_tags %}
+{% block content %}
+
+<div class="container-fluid p-5">
+    <div class="text-center bg-primary p-5 mb-5 text-white">
+        <h2>Edit your Gram!</h2>
+        <div class="form-container">
+            <form method="POST" enctype="multipart/form-data">
+                {% csrf_token %}
+                {{ form|crispy }}
+
+                <div class="row justify-content-center mt-5">
+                    <div class="col-md-auto">
+                        <button type="submit" class="btn btn-warning signlog-button">Update</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

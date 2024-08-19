@@ -1,0 +1,7 @@
+<!-- Hide the "Currently" field in the image field -->
+<div class="custom-file-input">
+    <input type="file" name="{{ widget.name }}" {% include "django/forms/widgets/attrs.html" %}>
+    {% if widget.is_initial and widget.value %}
+    <span>{{ widget.value }}</span>
+    {% endif %}
+</div>
