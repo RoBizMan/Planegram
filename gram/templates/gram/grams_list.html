@@ -7,7 +7,7 @@
     <div class="row" id="gram-container">
         {% for gram in page_obj %}
         <div class="col-lg-4 col-md-6 col-xs-12 mb-4">
-            <div class="card shadow-sm card-height">
+            <div class="card custom-card shadow-sm card-height">
                 <a href="{% url 'gram_detail' gram.id %}">
                     <img src="{{ gram.image.url }}" class="card-img-top img-centered" alt="{{ gram.caption }}">
                     <div class="card-body">

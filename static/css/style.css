@@ -101,7 +101,7 @@ main {
     justify-content: space-between;
 }
 
-.card:hover {
+.custom-card:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transform: translateY(-5px);
     transition: box-shadow 0.3s ease, transform 0.3s ease;
