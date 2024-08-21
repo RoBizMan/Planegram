@@ -62,10 +62,15 @@
 
                     <!-- Page links -->
                     <ul class="navbar-nav nav-underline ms-auto">
+                        {% if user.is_authenticated %}
+                        <!-- Do not show the Home link for logged-in users -->
+                        {% else %}
                         <li class="nav-item">
                             <a class="nav-link {% if request.path == blog_url %}active" aria-current="page{% endif %}"
                                 href="{% url 'homepage' %}">Home</a>
                         </li>
+                        {% endif %}
+
                         <li class="nav-item">
                             <a class="nav-link {% if request.path == gram_url %}active" aria-current="page{% endif %}"
                                 href="{% url 'grams' %}">Grams</a>

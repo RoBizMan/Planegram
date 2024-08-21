@@ -55,7 +55,7 @@ def edit_gram(request, pk):
 
     # Check if the logged-in user is the owner of the gram
     if request.user != gram.photographer:
-        messages.error(request, "You are not authorised to edit this gram.")
+        messages.warning(request, "You are not authorised to edit this gram.")
         return redirect('grams')  # Redirect to the grams list page
 
     if request.method == 'POST':
