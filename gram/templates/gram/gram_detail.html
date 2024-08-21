@@ -10,7 +10,7 @@
                     <h5 class="card-title">{{ gram.caption }}</h5>
                     <p class="card-text">Photographed by: {{ gram.photographer.username }}</p>
                     <p class="card-text">Plane: {{ gram.plane }}</p>
-                    <p class="card-text">Date Photographed: {{ gram.date_photographed }}</p>
+                    <p class="card-text">Date Photographed: {{ gram.date_photographed|date:"d F Y" }}</p>
                     <p class="card-text"><i class="fa-regular fa-heart text-dark like-icon"></i> {{ gram.love.count }}
                     </p>
 
