@@ -418,3 +418,48 @@ source: [medium.com](https://medium.com/@yathomasi1/1-using-django-extensions-to
 
 ---
 
+## Agile Development Process
+
+### GitHub Projects
+
+[GitHub Projects](https://github.com/RoBizMan/Planegram/projects) served as an Agile tool for this project.
+It isn't a specialized tool, but with the right tags and project creation/issue assignments, it can be made to work.
+
+Through it, user stories, issues, and milestone tasks were planned, then tracked on a weekly basis using the basic Kanban board.
+
+![screenshot](documentation/agile/agile_projects.png)
+
+### GitHub Issues
+
+[GitHub Issues](https://github.com/RoBizMan/Planegram/issues) served as an another Agile tool.
+There, I used my own **User Story Template** to manage user stories.
+
+![screenshot](documentation/agile/agile_open.png)
+![screenshot](documentation/agile/agile_close.png)
+
+It also helped with [Milestone](https://github.com/RoBizMan/Planegram/milestones) iterations on a weekly basis.
+
+![screenshot](documentation/agile/agile_milestone.png)
+
+### MoSCoW Prioritisation
+
+I've decomposed my Epics into stories prior to prioritizing and implementing them.
+Using this approach, I was able to apply the [MoSCoW prioritisation](https://github.com/users/RoBizMan/projects/3/views/7) and labels to my user stories within the Projects tab.
+
+- **Must Have**: guaranteed to be delivered (*max 60% of stories*)
+- **Should Have**: adds significant value, but not vital (*the rest ~20% of stories*)
+- **Could Have**: has small impact if left out (*20% of stories*)
+- **Won't Have**: not a priority for this iteration
+
+![screenshot](documentation/agile/agile_moscow.png)
+
+Furthermore, based on MoSCoW prioritisation, I calculated the story points based on the [Estimation Matrix](https://www.7pace.com/wp-content/uploads/2022/08/01_Image_Estimation-Matrix-1-scaled.jpg) to score each MoSCoW prioritisation based on my knowledge and skiils and the requirements of the project.
+
+![screenshot](documentation/agile/agile_storypoints.png)
+
+Finally, I assigned each MoSCoW prioritisation into one of four sprint weeks.
+
+![screenshot](documentation/agile/agile_sprintweek.png)
+
+---
+
