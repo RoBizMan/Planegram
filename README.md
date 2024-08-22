@@ -25,3 +25,89 @@ Join Planegram today and embark on a visual journey through the skies, capturing
 ![screenshot](documentation/introduction/mockup.png)
 
 source: [amiresponsive](https://ui.dev/amiresponsive?url=https://planegram-ef1046dc025e.herokuapp.com)
+
+---
+
+## UX
+
+In this project, I follow the Five Planes of User Experience model invented by Jesse James Garrett.
+
+### Five Planes of User Experience
+
+This model aids in transforming from abstract ideas, such as creating objectives of the project and identifying the user needs, to concrete concepts, such as assembling visual elements together to produce the visual design of the idea to meet the project's objectives and users' needs.
+
+#### The Strategy Plane
+The vision for Planegram is to be a unique, visually engaging platform where aviation enthusiasts and photographers can share and appreciate stunning images of aeroplanes. Unlike other platforms, Planegram focuses on building a visually appealing and engaging space for aviation lovers to showcase their passion through photography with minimal complexity.
+
+##### Business Goals:
+•	Community Engagement: Foster a community of aviation enthusiasts who actively share their aviation photos and engage by liking the images of others. We value your input and aim to shape Planegram based on your needs and preferences.
+•	Content Creation: Foster a dynamic and engaging feed, continuously enriched by high-quality aviation images uploaded by our users.
+•	Brand Identity: The go-to platform for aviation photography, renowned for its intuitive, user-friendly interface and captivating visual content.
+
+##### User Needs:
+•	Aviation Enthusiasts and Photographers: A visually driven platform that allows them to upload and share aviation photos with others who share their passion.
+•	Casual Users: A simple, easy-to-use platform where they can browse beautiful images of planes and engage with the content by liking their favourites.
+•	Simplicity Seekers: Users prefer a straightforward experience without the complexity of comments, advanced search, or additional features like monetisation.
+In this simplified context, the core value of Planegram lies in providing a streamlined experience focused on visual content and community engagement through photo sharing and likes.
+
+#### Scope Plane
+
+Based on the main objective and goals set out in the Strategy Plane, these requirements for developing the website are broken down into two categories:
+
+##### Functional Requirements:
+•	User Accounts and Profiles: Users should be able to create an account, set up a basic profile, and upload their aviation photos.
+•	Image Upload and Sharing: A simple process for users to upload their images, add essential captions (e.g., plane make and model), and share them on the platform.
+•	Like Feature: Users should be able to like photos, with the total number of likes displayed alongside the image.
+•	Feed Display: A visual feed displaying photos in a grid format, similar to Instagram, where users can scroll through images of planes shared by the community.
+•	Primary Navigation: Users should be able to navigate between their profile, the main photo feed, and liked images.
+
+##### Content Requirements:
+•	Aviation Photo Gallery: A visually organised gallery showcasing user-uploaded photos, with each image displaying the plane's make and model, the photographer’s name, and the number of likes.
+•	User Profiles: Basic profiles showing the user's uploaded photos, a brief bio, and their total number of likes received.
+•	Curated Content: A selection of standout photos or featured users could be highlighted to encourage higher engagement and showcase quality content.
+
+#### The Structure Plane
+
+The requirements outlined in the Scope Plane were then used to create a structure for the website. A site map below shows how users can navigate the website easily.
+
+"Image here"
+
+#### The Skeleton Plane
+
+Please refer to the [Wireframes](#Wireframes) section for more detailed wireframing.
+
+#### The Surface Plane
+
+[Click here to view the live site.](https://planegram-ef1046dc025e.herokuapp.com)
+
+### Colour Scheme
+
+I used [Color Hunt](https://colorhunt.co/palette/f8f9fa380788ffc106212529#justCreated) to generate my colour palette.
+
+![screenshot](documentation/ux/colour_palette.png)
+
+- `#F8F9FA` used for primary background and text colour.
+- `#380788` used for primary navbar, container, and footer colour.
+- `#FFC106` used for secondary button and highlight links colour.
+- `#212529` used for secondary text.
+
+The colour palette represents a plane soaring above the night sky during a red-eye flight. However, the colour palette needed to pass the minimum colour contrast set by the Web Content Accessibility Guide (WCAG). The colour palette was tested using [Coolors' Color Contrast Checker](https://coolors.co/contrast-checker/). The result below shows that these colours passed the minimum WCAG contrast ratio.
+
+<details>
+<summary>Color Contrast Checker</summary>
+
+![screenshot](documentation/ux/black_gold.png)
+![screenshot](documentation/ux/gold_navy.png)
+![screenshot](documentation/ux/white_navy.png)
+</details>
+
+<br>
+
+### Typography
+
+- [Bootstrap's native font stack](https://getbootstrap.com/docs/5.3/content/reboot/#native-font-stack) was used throughout the site.
+
+- [Font Awesome](https://fontawesome.com) icons were used throughout the site, such as the social media icons in the footer and buttons in a detailed gram view.
+
+---
+
