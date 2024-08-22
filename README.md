@@ -137,3 +137,112 @@ The colour palette represents a plane soaring above the night sky during a red-e
 
 ---
 
+## Wireframes
+
+To follow best practice, wireframes were developed for mobile, tablet, and desktop sizes.
+I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wireframes.
+
+### Mobile Wireframes
+
+<details>
+<summary> Click here to see the Mobile Wireframes </summary>
+
+Home
+- ![screenshot](documentation/wireframes/mobile/mobile_homepage.png)
+
+Sign Up
+- ![screenshot](documentation/wireframes/mobile/mobile_signup.png)
+
+Login
+- ![screenshot](documentation/wireframes/mobile/mobile_login.png)
+
+Sign Out
+- ![screenshot](documentation/wireframes/mobile/mobile_signout.png)
+
+Upload
+- ![screenshot](documentation/wireframes/mobile/mobile_upload.png)
+
+Edit
+- ![screenshot](documentation/wireframes/mobile/mobile_edit.png)
+
+Report
+- ![screenshot](documentation/wireframes/mobile/mobile_report.png)
+
+Grams
+- ![screenshot](documentation/wireframes/mobile/mobile_grams.png)
+
+Detailed Gram
+- ![screenshot](documentation/wireframes/mobile/mobile_detailedgram.png)
+
+</details>
+
+### Tablet Wireframes
+
+<details>
+<summary> Click here to see the Tablet Wireframes </summary>
+
+Home
+- ![screenshot](documentation/wireframes/tablet/tablet_homepage.png)
+
+Sign Up
+- ![screenshot](documentation/wireframes/tablet/tablet_signup.png)
+
+Login
+- ![screenshot](documentation/wireframes/tablet/tablet_login.png)
+
+Sign Out
+- ![screenshot](documentation/wireframes/tablet/tablet_signout.png)
+
+Upload
+- ![screenshot](documentation/wireframes/tablet/tablet_upload.png)
+
+Edit
+- ![screenshot](documentation/wireframes/tablet/tablet_edit.png)
+
+Report
+- ![screenshot](documentation/wireframes/tablet/tablet_report.png)
+
+Grams
+- ![screenshot](documentation/wireframes/tablet/tablet_grams.png)
+
+Detailed Gram
+- ![screenshot](documentation/wireframes/tablet/tablet_detailedgram.png)
+
+</details>
+
+### Desktop Wireframes
+
+<details>
+<summary> Click here to see the Desktop Wireframes </summary>
+
+Home
+- ![screenshot](documentation/wireframes/desktop/desktop_homepage.png)
+
+Sign Up
+- ![screenshot](documentation/wireframes/desktop/desktop_signup.png)
+
+Login
+- ![screenshot](documentation/wireframes/desktop/desktop_login.png)
+
+Sign Out
+- ![screenshot](documentation/wireframes/desktop/desktop_signout.png)
+
+Upload
+- ![screenshot](documentation/wireframes/desktop/desktop_upload.png)
+
+Edit
+- ![screenshot](documentation/wireframes/desktop/desktop_edit.png)
+
+Report
+- ![screenshot](documentation/wireframes/desktop/desktop_report.png)
+
+Grams
+- ![screenshot](documentation/wireframes/desktop/desktop_grams.png)
+
+Detailed Gram
+- ![screenshot](documentation/wireframes/desktop/desktop_detailedgram.png)
+
+</details>
+
+---
+
