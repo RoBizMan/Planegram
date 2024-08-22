@@ -246,3 +246,92 @@ Detailed Gram
 
 ---
 
+## Features
+
+### Existing Features
+
+- **The Home Page**
+
+    - The Home Page is the first contact users will encounter when visiting this website. The page appears with the title welcoming users to the website. Also, there are two buttons that leads users either to the Sign Up page or the Login page. The Home Page will be hidden and automatically redirect logged users to the Grams page once logged in. [Click here to view the home page](https://planegram-ef1046dc025e.herokuapp.com)
+
+![screenshot](documentation/features/feature01.png)
+
+- **Header**
+
+    - At the top of the website is the header, where users can see the company's logo on the left and the fixed navigation menu on the right side, which was made to be fully responsive across different device sizes. In addition, the navigation menu is hidden on a mobile device, and the hamburger icon allows users to open and close the navigation menu. Also, the Upload link is hidden when a user is not logged in. The Upload link will appear, the Home link will hide, and the Sign Up and Login buttons will be replaced with the Sign Out button once a user is logged in. These features will return to the original once a user is logged out.
+
+![screenshot](documentation/features/feature02a_desktop.png)
+![screenshot](documentation/features/feature02a_tablet.png)
+![screenshot](documentation/features/feature02a_mobile.png)
+![screenshot](documentation/features/feature02b_desktop.png)
+![screenshot](documentation/features/feature02b_tablet.png)
+![screenshot](documentation/features/feature02b_mobile.png)
+
+- **Footer**
+
+    - The footer is at the bottom of the website, where users can visit the company's social media presence. The copyright message is located beside the company's logo.
+
+![screenshot](documentation/features/feature03_desktop.png)
+![screenshot](documentation/features/feature03_mobile.png)
+
+- **The Alert Message**
+
+    - The alert message appears below the navigation bar to inform a user of their action, such as successfully logging in or logging out and updating their post successfully.
+
+![screenshot](documentation/features/feature04a.png)
+![screenshot](documentation/features/feature04b.png)
+![screenshot](documentation/features/feature04c.png)
+
+- **The Grams page**
+
+    - The Grams page consists of three columns and two rows of posts of a plane image with a caption and who was photographed by. If there are more than six posts, the load more button will appear, and a user will click the load more button to load more posts. In the tablet view, the number of columns will be reduced to two and the number of rows will be increased to three. Again, the number of rows will increase to six, and the number of columns will be reduced to one in the mobile view. [Click here to view the home page](https://planegram-ef1046dc025e.herokuapp.com/grams/)
+
+![screenshot](documentation/features/feature05_desktop.png)
+![screenshot](documentation/features/feature05_tablet.png)
+![screenshot](documentation/features/feature05_mobile.png)
+
+- **The detailed gram page**
+
+    - The detailed gram page will display a main plane photo with the following details: caption, photographer, date the photo was taken, and name of the plane make and model. It also features a count of likes and multiple buttons: Like, Edit, Delete, and Report. These buttons are hidden when a user is not logged in, but the “Login” button will replace these buttons. Once a user is logged in, they can modify or delete their own posts, but they cannot modify or delete posts that are not theirs. Also, a user cannot report their own posts. They can only report someone’s posts for incorrect details. [Click here to view the home page](https://planegram-ef1046dc025e.herokuapp.com/grams/1/)
+
+![screenshot](documentation/features/feature06a_desktop.png)
+![screenshot](documentation/features/feature06a_tablet.png)
+![screenshot](documentation/features/feature06a_mobile.png)
+![screenshot](documentation/features/feature06b_buttona.png)
+![screenshot](documentation/features/feature06b_buttonb.png)
+![screenshot](documentation/features/feature06b_buttonc.png)
+
+- **The delete post confirmation**
+
+    - The detailed gram page has a feature that prevents a user from accidentally deleting their own post. When a user clicks the delete button, the modal message will display and ask the user to confirm the deletion.
+
+![screenshot](documentation/features/feature07.png)
+
+- **The Upload page**
+
+    - The Upload page allows users to upload pictures of their planes with captions, photographers, the date a photo was taken, and the name of the plane make and model.
+
+![screenshot](documentation/features/feature08.png)
+
+- **The Edit page**
+
+    - The Edit page allows users to modify their posts to update the details or change a plane image. The edit form is prepopulated with the existing details saved in the database.
+
+![screenshot](documentation/features/feature09.png)
+
+### Future Features
+
+- Profile Management to allow users to edit their personal details,change their password or delete their account.
+- Reset Password to allow users to reset their password if they forget their password.
+- Customisable themes for users to change the theme to their own preferred style.
+- Implement MFA (Multi-Factor Authentication) to secure their accounts from potential security breaches by bad hack players.
+- Introduce Notifications to receive a notification about new likes or status of reported posts.
+- Enable search function by using plane make and models to find relevant posts.
+- Add the comment function to allow Planegram users to comment or reply on posts.
+- Enable Follow Other Users to keep an eye on new posts.
+- Introduce Social Media Sharing for users to share posts to different social media sites to attract visitors to this site and convert visitors into new users.
+- Implement dark-mode support to reduce eye strains on users.
+- Redesign the website to include some intuitive advanced UI design.
+
+---
+
