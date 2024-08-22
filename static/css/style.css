@@ -12,8 +12,10 @@ main {
 
 /* Navigation bar */
 .navbar-custom-color,
-.footer-custom-color {
-    background-color: #6610F2
+.footer-custom-color,
+.container-custom-color,
+.btn-custom-color {
+    background-color: #380788;
 }
 
 .custom-toggler .navbar-toggler-icon {
