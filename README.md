@@ -360,3 +360,61 @@ Detailed Gram
 
 ---
 
+## Database Design
+
+Entity Relationship Diagrams (ERD) help to visualise database architecture before creating models.
+Understanding the relationships between different tables can save time later in the project.
+
+```python
+class Aircraft(models.Model):
+    plane_make = models.CharField(max_length=40)
+    plane_model = models.CharField(max_length=40)
+```
+
+```python
+class Gram(models.Model):
+    caption = models.CharField(max_length=50, unique=True)
+    image = CloudinaryField('image', default='placeholder')
+    plane = models.ForeignKey(Aircraft, on_delete=models.CASCADE)
+    date_photographed = models.DateField()
+    photographer = models.ForeignKey(User, on_delete=models.CASCADE, related_name="gram_posts")
+    love = models.ManyToManyField(User, related_name="loved_grams", blank=True)
+    created_on = models.DateTimeField(auto_now_add=True)
+```
+
+```python
+DECISION = ((0, "Awaiting"), (1, "Accepted"), (2, "Rejected"))
+
+class Report(models.Model):
+    gram = models.ForeignKey(Gram, on_delete=models.CASCADE)
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    message = models.CharField(max_length=300)
+    decision = models.IntegerField(choices=DECISION, default=0)
+    date_reported = models.DateTimeField(auto_now_add=True)
+```
+
+I have used `pygraphviz` and `django-extensions` to auto-generate an ERD.
+
+The steps taken were as follows:
+- In the terminal: `sudo apt update`
+- then: `sudo apt-get install python3-dev graphviz libgraphviz-dev pkg-config`
+- then type `Y` to proceed
+- then: `pip3 install django-extensions pygraphviz`
+- in my `settings.py` file, I added the following to my `INSTALLED_APPS`:
+```python
+INSTALLED_APPS = [
+    ...
+    'django_extensions',
+    ...
+]
+```
+- back in the terminal: `python3 manage.py graph_models -a -o erd.png`
+- dragged the new `erd.png` file into my `documentation/` folder
+- removed `'django_extensions',` from my `INSTALLED_APPS`
+- finally, in the terminal: `pip3 uninstall django-extensions pygraphviz -y`
+
+![erd](documentation/database_design/erd.png)
+source: [medium.com](https://medium.com/@yathomasi1/1-using-django-extensions-to-visualize-the-database-diagram-in-django-application-c5fa7e710e16)
+
+---
+
