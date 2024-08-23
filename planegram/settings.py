@@ -20,6 +20,7 @@ if os.path.isfile('env.py'):
 import cloudinary
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
+
 BASE_DIR = Path(__file__).resolve().parent.parent
 TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 
@@ -28,9 +29,11 @@ TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
+
 SECRET_KEY = os.environ.get("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
+
 DEBUG = os.environ.get("DEBUG", False)
 
 ALLOWED_HOSTS = []
@@ -64,14 +67,19 @@ INSTALLED_APPS = [
     'upload',
 ]
 
+# AllAuth redirection after log-in and log-out
+
 SITE_ID = 1
 LOGIN_REDIRECT_URL = '/grams/'
 LOGOUT_REDIRECT_URL = '/'
 
 # Cloudinary configuration to ensure that images are loaded in HTTPS
+
 cloudinary.config(
     secure=True,
 )
+
+# Django Crispy Form with Bootstrap
 
 CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
 CRISPY_TEMPLATE_PACK = "bootstrap5"
