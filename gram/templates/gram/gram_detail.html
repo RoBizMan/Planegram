@@ -1,6 +1,7 @@
 {% extends 'base.html' %}
 {% load static %}
 {% block content %}
+
 <div class="container my-5">
     <div class="row justify-content-center">
         <div class="col">
@@ -13,7 +14,6 @@
                     <p class="card-text">Date Photographed: {{ gram.date_photographed|date:"d F Y" }}</p>
                     <p class="card-text"><i class="fa-regular fa-heart text-dark like-icon"></i> {{ gram.love.count }}
                     </p>
-
                     <form method="post" action="{% url 'gram_action' gram.id %}">
                         {% csrf_token %}
                         {% if user.is_authenticated %}
@@ -40,7 +40,6 @@
                         <a href="{% url 'account_login' %}?next={% url 'gram_detail' gram.id %}"
                             class="btn btn-warning">Login</a>
                         {% endif %}
-
                         {% if request.user == gram.photographer %}
                         <button type="button" class="btn btn-danger" data-bs-toggle="modal"
                             data-bs-target="#deleteModal">

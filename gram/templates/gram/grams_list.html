@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
 {% load static %}
-
 {% block content %}
+
 <div class="container mt-4">
     <h2 class="text-center mb-4">Explore Our Grams</h2>
     <div class="row" id="gram-container">
@@ -23,11 +23,11 @@
         </div>
         {% endfor %}
     </div>
-
     {% if page_obj.has_next %}
     <div class="text-center mt-4 mb-4">
         <button id="load-more" class="btn btn-warning">Load More</button>
     </div>
     {% endif %}
 </div>
+
 {% endblock %}
