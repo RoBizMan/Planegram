@@ -1,3 +1,5 @@
+/* jshint esversion: 11 */
+
 document.addEventListener('DOMContentLoaded', function () {
     // Load more functionality for infinite scrolling
     let currentPage = 2; // Start from the second page
