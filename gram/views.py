@@ -177,6 +177,11 @@ def report_gram(request, pk):
     '''
     gram = get_object_or_404(Gram, id=pk)
 
+    # Check if the user is the owner of the gram
+    if request.user == gram.photographer:
+        messages.warning(request, "You cannot report your own gram.")
+        return redirect('gram_detail', pk=gram.id)
+
     # Check if the user has already reported this gram
     if Report.objects.filter(gram=gram, user=request.user).exists():
         messages.warning(
