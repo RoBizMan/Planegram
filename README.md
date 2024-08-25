@@ -70,7 +70,7 @@ Based on the main objective and goals set out in the Strategy Plane, these requi
 
 The requirements outlined in the Scope Plane were then used to create a structure for the website. A site map below shows how users can navigate the website easily.
 
-"Image here"
+![screenshot](documentation/database_design/pp4structureplane.jpg)
 
 #### The Skeleton Plane
 
@@ -660,6 +660,14 @@ There was no difference between local and deployment noticed.
 | [Stackoverflow](https://stackoverflow.com/questions/52519142/show-hide-options-in-django-app-to-users-based-on-permission) | entire site | Show/hide pages based on user authentication |
 | [Coderbook](https://coderbook.com/@marcus/how-to-restrict-access-with-django-permissions/) | entire site | Restrict non-logged in users from access to login required pages |
 | [Django Andy](https://djangoandy.com/2021/06/04/redirecting-an-already-logged-in-user-in-django-using-class-based-views/) | entire site | Redirecting an already logged in user to different pages |
+| [Code Institute Slack](https://code-institute-room.slack.com/archives/C066RBQ5TUN/p1722085473266889?thread_ts=1722074962.420909&cid=C066RBQ5TUN) | backend only | Automatic switch between debug true and false |
+| [Vitor Freitas](https://simpleisbetterthancomplex.com/tutorial/2017/03/13/how-to-create-infinite-scroll-with-django.html) | Grams page | Infinite scrolling |
+| [Rashid](https://dev.to/thedevtimeline/infinite-scroll-with-django-d0a) | Grams page | Infinite scrolling |
+| [LambdaTest](https://www.lambdatest.com/jest) | Backend only - JavaScript | JavaScript unit testing using Jest guide |
+| [Testim](https://www.testim.io/blog/jest-testing-a-helpful-introductory-tutorial/) | Backend only - JavaScript | Jest testing tutorial |
+| [Real Python](https://realpython.com/testing-in-django-part-1-best-practices-and-examples/) | Backend only - Python | Testing in Django best practices and examples |
+| [django](https://docs.djangoproject.com/en/5.1/topics/testing/overview/) | Backend only - Python | django documentation writing and running tests |
+| [Alice Ridgway](https://alicecampkin.medium.com/django-testing-for-beginners-146bd285a178) | Backend only - Python | Django Testing for Beginners |
 
 ### Media
 
