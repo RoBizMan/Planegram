@@ -297,3 +297,31 @@ I've not encountered any issue as far as I am aware of.
 
 ---
 
+## Bugs
+
+### GitHub **Issues**
+
+**Fixed Bugs**
+
+[![GitHub issue custom search](https://img.shields.io/github/issues-search?query=repo%3ARoBizMan%2FPlanegram%20label%3Abug&label=bugs)](https://github.com/RoBizMan/Planegram/issues?q=is%3Aissue+is%3Aclosed+label%3Abug)
+
+All previously closed/fixed bugs can be tracked [here](https://github.com/RoBizMan/Planegram/issues?q=is%3Aissue+is%3Aclosed).
+
+| Bug | Status |
+| --- | --- |
+| [Favicon site.webmanifest Error 401](https://github.com/RoBizMan/Planegram/issues/29) | Closed |
+| [Modal window for add a new plane info won't submit when clicked a "Add Plane" button](https://github.com/RoBizMan/Planegram/issues/30) | Closed |
+| [Active page not displaying on Grams page](https://github.com/RoBizMan/Planegram/issues/31) | Closed |
+| [Login button in the Gram detailed view appears invisible](https://github.com/RoBizMan/Planegram/issues/32) | Closed |
+| [American date format instead of European date format](https://github.com/RoBizMan/Planegram/issues/33) | Closed |
+| [Cloudinary images are loaded over unsecured HTTP whereas the webpage loaded over secured HTTPS](https://github.com/RoBizMan/Planegram/issues/34) | Closed |
+| [When viewing the post in detail, the card is moving up when hovering over](https://github.com/RoBizMan/Planegram/issues/35) | Closed |
+
+**Open Issues**
+
+No open issues.
+
+## Unfixed Bugs
+
+> [!NOTE]  
+> There are no remaining bugs that I am aware of.
