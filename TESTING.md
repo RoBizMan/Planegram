@@ -172,3 +172,128 @@ Defensive programming was manually tested with the below user acceptance testing
 
 ---
 
+## Automated Testing
+
+I have conducted a series of automated tests on my application.
+
+I fully acknowledge and understand that, in a real-world scenario, an extensive set of additional tests would be more comprehensive.
+
+### JavaScript (Jest Testing)
+
+I have used the [Jest](https://jestjs.io) JavaScript testing framework to test the application functionality.
+
+In order to work with Jest, I first had to initialize NPM.
+
+- `npm init`
+- Hit `enter` for all options, except for **test command:**, just type `jest`.
+
+Add Jest to a list called **Dev Dependencies** in a dev environment:
+
+- `npm install --save-dev jest`
+
+**IMPORTANT**: Initial configurations
+
+When creating test files, the name of the file needs to be `file-name.test.js` in order for Jest to properly work.
+
+Without the following, Jest won't properly run the tests:
+
+- `npm install -D jest-environment-jsdom`
+
+Due to a change in Jest's default configuration, you'll need to add the following code to the top of the `.test.js` file:
+
+```js
+/**
+ * @jest-environment jsdom
+ */
+
+const { test, expect } = require("@jest/globals");
+const { function1, function2, function3, etc. } = require("../script-name");
+
+beforeAll(() => {
+    let fs = require("fs");
+    let fileContents = fs.readFileSync("index.html", "utf-8");
+    document.open();
+    document.write(fileContents);
+    document.close();
+});
+```
+
+Remember to adjust the `fs.readFileSync()` to the specific file you'd like you test.
+The example above is testing the `index.html` file.
+
+Finally, at the bottom of the script file where your primary scripts are written, include the following at the bottom of the file.
+Make sure to include the name of all of your functions that are being tested in the `.test.js` file.
+
+```js
+if (typeof module !== "undefined") module.exports = {
+    function1, function2, function3, etc.
+};
+```
+
+Now that these steps have been undertaken, further tests can be written, and be expected to fail initially.
+Write JS code that can get the tests to pass as part of the Red-Green refactor process.
+
+Once ready, to run the tests, use this command:
+
+- `npm test`
+
+**NOTE**: To obtain a coverage report, use the following command:
+
+- `npm test --coverage`
+
+Below are the results from the tests that I've written for this application:
+
+| Test Suites | Tests | Screenshot |
+| --- | --- | --- |
+| 1 passed | 3 passed | ![screenshot](documentation/testing/automated_testing/jest_grams_list.png) |
+
+#### Jest Test Issues
+
+I've not encountered any issue as far as I am aware of.
+
+### Python (Unit Testing)
+
+I have used Django's built-in unit testing framework to test the application functionality.
+
+In order to run the tests, I ran the following command in the terminal each time:
+
+`python3 manage.py test name-of-app`
+
+To create the coverage report, I would then run the following commands:
+
+`pip3 install coverage`
+
+`pip3 freeze --local > requirements.txt`
+
+`coverage run --omit=*/site-packages/*,*/migrations/*,*/__init__.py,env.py manage.py test`
+
+`coverage report`
+
+To see the HTML version of the reports, and find out whether some pieces of code were missing, I ran the following commands:
+
+`coverage html`
+
+`python3 -m http.server`
+
+Below are the results from the various apps on my application that I've tested:
+
+| App | File | Coverage | Screenshot |
+| --- | --- | --- | --- |
+| Blog | test_models.py | 100% | ![screenshot](documentation/testing/automated_testing/python_blogmodels.png) |
+| Blog | test_urls.py | 100% | ![screenshot](documentation/testing/automated_testing/python_blogurls.png) |
+| Blog | test_views.py | 100% | ![screenshot](documentation/testing/automated_testing/python_blogviews.png) |
+| Gram | test_forms.py | 100% | ![screenshot](documentation/testing/automated_testing/python_gramforms.png) |
+| Gram | test_urls.py | 100% | ![screenshot](documentation/testing/automated_testing/python_gramurls.png) |
+| Gram | test_views.py | 100% | ![screenshot](documentation/testing/automated_testing/python_gramviews.png) |
+| Planegram | test_urls.py | 100% | ![screenshot](documentation/testing/automated_testing/python_planegramurls.png) |
+| Planegram | test_views.py | 100% | ![screenshot](documentation/testing/automated_testing/python_planegramviews.png) |
+| Upload | test_forms.py | 100% | ![screenshot](documentation/testing/automated_testing/python_uploadforms.png) |
+| Upload | test_urls.py | 100% | ![screenshot](documentation/testing/automated_testing/python_uploadurls.png) |
+| Upload | test_views.py | 100% | ![screenshot](documentation/testing/automated_testing/python_uploadviews.png) |
+
+#### Unit Test Issues
+
+I've not encountered any issue as far as I am aware of.
+
+---
+
