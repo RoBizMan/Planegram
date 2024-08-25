@@ -152,3 +152,23 @@ Defensive programming was manually tested with the below user acceptance testing
 
 ---
 
+## User Story Testing
+
+| User Story | Screenshot |
+| --- | --- |
+| As a new site user, I would like to create an account, so that I can start sharing my aviation photos with the Planegram community. | ![screenshot](documentation/testing/user_stories/uxstory01.png) |
+| As a new site user, I would like to upload my first aviation photo, so that I can contribute to the platform and share my passion for airplanes. | ![screenshot](documentation/testing/user_stories/uxstory02.png) |
+| As a new site user, I would like to browse the photo feed, so that I can see aviation photos uploaded by others and enjoy the community's content. | ![screenshot](documentation/testing/user_stories/uxstory03.png) |
+| As a new site user, I would like to like photos, so that I can engage with the content that resonates with me. | ![screenshot](documentation/testing/user_stories/uxstory04.png) |
+| As a new site user, I would like to see the number of likes on each photo, so that I can gauge which images are popular in the community. | ![screenshot](documentation/testing/user_stories/uxstory05.png) |
+| As a returning site user, I would like to upload new aviation photos, so that I can continue contributing to the Planegram community. | ![screenshot](documentation/testing/user_stories/uxstory06.png) |
+| As a returning site user, I would like to browse the latest photos on the platform, so that I can keep up with new content from other aviation enthusiasts. | ![screenshot](documentation/testing/user_stories/uxstory07.png) |
+| As a returning site user, I would like to like additional photos, so that I can continue engaging with the content that I enjoy. | ![screenshot](documentation/testing/user_stories/uxstory08.png) |
+| As a returning site user, I would like to edit the captions or details of my previously uploaded photos, so that I can update or improve the information shared with the community. | ![screenshot](documentation/testing/user_stories/uxstory09.png) |
+| As a returning site user, I would like to delete my previously uploaded photos, so that I can remove any content that no longer represents my best work or that I no longer want to share. | ![screenshot](documentation/testing/user_stories/uxstory10.png) |
+| As a site administrator, I should be able to monitor reports submitted by users, so that I can address any incorrect information or inappropriate content on the platform. | ![screenshot](documentation/testing/user_stories/uxstory11.png) |
+| As a site administrator, I should be able to remove or correct any reported photos, so that the platform maintains accurate and appropriate content. | ![screenshot](documentation/testing/user_stories/uxstory12.png) |
+| As a site administrator, I should be able to monitor the overall content quality, so that I can ensure the platform aligns with the community's standards and values. | ![screenshot](documentation/testing/user_stories/uxstory13.png) |
+
+---
+
