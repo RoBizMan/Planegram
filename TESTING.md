@@ -24,6 +24,8 @@ I have used the recommended [HTML W3C Validator](https://validator.w3.org) to va
 | Error 404 | ![screenshot](documentation/testing/html_validation/404_error_html_validation.png) | Pass: No error found |
 | Error 500 | ![screenshot](documentation/testing/html_validation/500_error_html_validation.png) | Pass: No error found |
 
+---
+
 ### CSS
 
 I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator) to validate all of my CSS files.
@@ -32,6 +34,8 @@ I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-val
 | --- | --- | --- | --- |
 | static | style.css | ![screenshot](documentation/testing/css_validation/css_jigsaw_validation.png) | Pass: No error found |
 
+---
+
 ### JavaScript
 
 I have used the recommended [JShint Validator](https://jshint.com) to validate all of my JS files.
@@ -39,6 +43,8 @@ I have used the recommended [JShint Validator](https://jshint.com) to validate a
 | Directory | File | Screenshot | Notes |
 | --- | --- | --- | --- |
 | static | script.js | ![screenshot](documentation/testing/js_validation/script_jshint_validation.png) | All clear, no errors found |
+
+---
 
 ### Python
 
@@ -58,6 +64,8 @@ I have used the recommended [PEP8 CI Python Linter](https://pep8ci.herokuapp.com
 | upload | urls.py | ![screenshot](documentation/testing/python_validation/upload_urls_ci_linter.png) | All clear, no errors found |
 | upload | views.py | ![screenshot](documentation/testing/python_validation/upload_views_ci_linter.png) | All clear, no errors found |
 
+---
+
 ## Browser Compatibility
 
 I've tested my deployed project on multiple browsers to check for compatibility issues.
@@ -69,6 +77,8 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 | Edge | ![screenshot](documentation/testing/web_compatibility/edge/edge_comp_home.png) | ![screenshot](documentation/testing/web_compatibility/edge/edge_comp_signup.png) | ![screenshot](documentation/testing/web_compatibility/edge/edge_comp_login.png) | ![screenshot](documentation/testing/web_compatibility/edge/edge_comp_signout.png) | ![screenshot](documentation/testing/web_compatibility/edge/edge_comp_grams.png) | ![screenshot](documentation/testing/web_compatibility/edge/edge_comp_detailed_gram.png) | ![screenshot](documentation/testing/web_compatibility/edge/edge_comp_upload.png) | ![screenshot](documentation/testing/web_compatibility/edge/edge_comp_edit.png) | ![screenshot](documentation/testing/web_compatibility/edge/edge_comp_report.png) | ![screenshot](documentation/testing/web_compatibility/edge/edge_comp_404.png) | Works as expected |
 | Safari | ![screenshot](documentation/testing/web_compatibility/safari/safari_comp_home.png) | ![screenshot](documentation/testing/web_compatibility/safari/safari_comp_signup.png) | ![screenshot](documentation/testing/web_compatibility/safari/safari_comp_login.png) | ![screenshot](documentation/testing/web_compatibility/safari/safari_comp_signout.png) | ![screenshot](documentation/testing/web_compatibility/safari/safari_comp_grams.png) | ![screenshot](documentation/testing/web_compatibility/safari/safari_comp_detailed_gram.png) | ![screenshot](documentation/testing/web_compatibility/safari/safari_comp_upload.png) | ![screenshot](documentation/testing/web_compatibility/safari/safari_comp_edit.png) | ![screenshot](documentation/testing/web_compatibility/safari/safari_comp_report.png) | ![screenshot](documentation/testing/web_compatibility/safari/safari_comp_404.png) | Works as expected |
 
+---
+
 ## Responsiveness
 
 I've tested my deployed project on multiple devices to check for responsiveness issues.
@@ -79,4 +89,25 @@ I've tested my deployed project on multiple devices to check for responsiveness 
 | Apple iPad Pro | ![screenshot](documentation/testing/responsiveness/ipadpro/ipadpro_home.png) | ![screenshot](documentation/testing/responsiveness/ipadpro/ipadpro_signup.png) | ![screenshot](documentation/testing/responsiveness/ipadpro/ipadpro_login.png) | ![screenshot](documentation/testing/responsiveness/ipadpro/ipadpro_signout.png) | ![screenshot](documentation/testing/responsiveness/ipadpro/ipadpro_grams.png) | ![screenshot](documentation/testing/responsiveness/ipadpro/ipadpro_detailed_gram.png) | ![screenshot](documentation/testing/responsiveness/ipadpro/ipadpro_upload.png) | ![screenshot](documentation/testing/responsiveness/ipadpro/ipadpro_edit.png) | ![screenshot](documentation/testing/responsiveness/ipadpro/ipadpro_report.png) | ![screenshot](documentation/testing/responsiveness/ipadpro/ipadpro_404.png) | N/A | Works as expected |
 | Microsoft Surface Pro 7 | ![screenshot](documentation/testing/responsiveness/surfacepro7/surfacepro7_home.png) | ![screenshot](documentation/testing/responsiveness/surfacepro7/surfacepro7_signup.png) | ![screenshot](documentation/testing/responsiveness/surfacepro7/surfacepro7_login.png) | ![screenshot](documentation/testing/responsiveness/surfacepro7/surfacepro7_signout.png) | ![screenshot](documentation/testing/responsiveness/surfacepro7/surfacepro7_grams.png) | ![screenshot](documentation/testing/responsiveness/surfacepro7/surfacepro7_detailed_gram.png) | ![screenshot](documentation/testing/responsiveness/surfacepro7/surfacepro7_upload.png) | ![screenshot](documentation/testing/responsiveness/surfacepro7/surfacepro7_edit.png) | ![screenshot](documentation/testing/responsiveness/surfacepro7/surfacepro7_report.png) | ![screenshot](documentation/testing/responsiveness/surfacepro7/surfacepro7_404.png) | ![screenshot](documentation/testing/responsiveness/surfacepro7/surfacepro7_500.png) | Works as expected |
 | Google Pixel 7 | ![screenshot](documentation/testing/responsiveness/pixel7/pixel7_home.png) | ![screenshot](documentation/testing/responsiveness/pixel7/pixel7_signup.png) | ![screenshot](documentation/testing/responsiveness/pixel7/pixel7_login.png) | ![screenshot](documentation/testing/responsiveness/pixel7/pixel7_signout.png) | ![screenshot](documentation/testing/responsiveness/pixel7/pixel7_grams.png) | ![screenshot](documentation/testing/responsiveness/pixel7/pixel7_detailed_gram.png) | ![screenshot](documentation/testing/responsiveness/pixel7/pixel7_upload.png) | ![screenshot](documentation/testing/responsiveness/pixel7/pixel7_edit.png) | ![screenshot](documentation/testing/responsiveness/pixel7/pixel7_report.png) | ![screenshot](documentation/testing/responsiveness/pixel7/pixel7_404.png) | ![screenshot](documentation/testing/responsiveness/pixel7/pixel7_500.png) | Works as expected |
+
+---
+
+## Lighthouse Audit
+
+I've tested my deployed project using the Lighthouse Audit tool to check for any major issues.
+
+| Page | Mobile | Desktop | Notes |
+| --- | --- | --- | --- |
+| Home | ![screenshot](documentation/testing/lighthouse/light_home_mobile.png) | ![screenshot](documentation/testing/lighthouse/light_home_desktop.png) | Some minor warnings |
+| Sign Up | ![screenshot](documentation/testing/lighthouse/light_signup_mobile.png) | ![screenshot](documentation/testing/lighthouse/light_signup_desktop.png) | Some minor warnings |
+| Login | ![screenshot](documentation/testing/lighthouse/light_login_mobile.png) | ![screenshot](documentation/testing/lighthouse/light_login_desktop.png) | Some minor warnings |
+| Sign Out | ![screenshot](documentation/testing/lighthouse/light_signout_mobile.png) | ![screenshot](documentation/testing/lighthouse/light_signout_desktop.png) | Some minor warnings |
+| Grams | ![screenshot](documentation/testing/lighthouse/light_grams_mobile.png) | ![screenshot](documentation/testing/lighthouse/light_grams_desktop.png) | Some minor warnings. Slow response time due to loading multiples images |
+| Detailed Gram | ![screenshot](documentation/testing/lighthouse/light_detailedgram_mobile.png) | ![screenshot](documentation/testing/lighthouse/light_detailedgram_desktop.png) | Some minor warnings. Slow response time due to loading a large image |
+| Upload | ![screenshot](documentation/testing/lighthouse/light_upload_mobile.png) | ![screenshot](documentation/testing/lighthouse/light_upload_desktop.png) | Some minor warnings |
+| Edit Gram | ![screenshot](documentation/testing/lighthouse/light_editgram_mobile.png) | ![screenshot](documentation/testing/lighthouse/light_editgram_desktop.png) | Some minor warnings |
+| Report Gram | ![screenshot](documentation/testing/lighthouse/light_report_mobile.png) | ![screenshot](documentation/testing/lighthouse/light_report_desktop.png) | Some minor warnings |
+| 404 Error | ![screenshot](documentation/testing/lighthouse/light_404_mobile.png) | ![screenshot](documentation/testing/lighthouse/light_404_desktop.png) | Some minor warnings |
+
+---
 
