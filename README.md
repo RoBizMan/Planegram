@@ -40,14 +40,15 @@ This model aids in transforming from abstract ideas, such as creating objectives
 The vision for Planegram is to be a unique, visually engaging platform where aviation enthusiasts and photographers can share and appreciate stunning images of aeroplanes. Unlike other platforms, Planegram focuses on building a visually appealing and engaging space for aviation lovers to showcase their passion through photography with minimal complexity.
 
 ##### Business Goals:
-•	Community Engagement: Foster a community of aviation enthusiasts who actively share their aviation photos and engage by liking the images of others. We value your input and aim to shape Planegram based on your needs and preferences.
-•	Content Creation: Foster a dynamic and engaging feed, continuously enriched by high-quality aviation images uploaded by our users.
-•	Brand Identity: The go-to platform for aviation photography, renowned for its intuitive, user-friendly interface and captivating visual content.
+- Community Engagement: Foster a community of aviation enthusiasts who actively share their aviation photos and engage by liking the images of others. We value your input and aim to shape Planegram based on your needs and preferences.
+- Content Creation: Foster a dynamic and engaging feed, continuously enriched by high-quality aviation images uploaded by our users.
+- Brand Identity: The go-to platform for aviation photography, renowned for its intuitive, user-friendly interface and captivating visual content.
 
 ##### User Needs:
-•	Aviation Enthusiasts and Photographers: A visually driven platform that allows them to upload and share aviation photos with others who share their passion.
-•	Casual Users: A simple, easy-to-use platform where they can browse beautiful images of planes and engage with the content by liking their favourites.
-•	Simplicity Seekers: Users prefer a straightforward experience without the complexity of comments, advanced search, or additional features like monetisation.
+- Aviation Enthusiasts and Photographers: A visually driven platform that allows them to upload and share aviation photos with others who share their passion.
+- Casual Users: A simple, easy-to-use platform where they can browse beautiful images of planes and engage with the content by liking their favourites.
+- Simplicity Seekers: Users prefer a straightforward experience without the complexity of comments, advanced search, or additional features like monetisation.
+
 In this simplified context, the core value of Planegram lies in providing a streamlined experience focused on visual content and community engagement through photo sharing and likes.
 
 #### Scope Plane
@@ -55,16 +56,16 @@ In this simplified context, the core value of Planegram lies in providing a stre
 Based on the main objective and goals set out in the Strategy Plane, these requirements for developing the website are broken down into two categories:
 
 ##### Functional Requirements:
-•	User Accounts and Profiles: Users should be able to create an account, set up a basic profile, and upload their aviation photos.
-•	Image Upload and Sharing: A simple process for users to upload their images, add essential captions (e.g., plane make and model), and share them on the platform.
-•	Like Feature: Users should be able to like photos, with the total number of likes displayed alongside the image.
-•	Feed Display: A visual feed displaying photos in a grid format, similar to Instagram, where users can scroll through images of planes shared by the community.
-•	Primary Navigation: Users should be able to navigate between their profile, the main photo feed, and liked images.
+- User Accounts and Profiles: Users should be able to create an account, set up a basic profile, and upload their aviation photos.
+- Image Upload and Sharing: A simple process for users to upload their images, add essential captions (e.g., plane make and model), and share them on the platform.
+- Like Feature: Users should be able to like photos, with the total number of likes displayed alongside the image.
+- Feed Display: A visual feed displaying photos in a grid format, similar to Instagram, where users can scroll through images of planes shared by the community.
+- Primary Navigation: Users should be able to navigate between their profile, the main photo feed, and liked images.
 
 ##### Content Requirements:
-•	Aviation Photo Gallery: A visually organised gallery showcasing user-uploaded photos, with each image displaying the plane's make and model, the photographer’s name, and the number of likes.
-•	User Profiles: Basic profiles showing the user's uploaded photos, a brief bio, and their total number of likes received.
-•	Curated Content: A selection of standout photos or featured users could be highlighted to encourage higher engagement and showcase quality content.
+- Aviation Photo Gallery: A visually organised gallery showcasing user-uploaded photos, with each image displaying the plane's make and model, the photographer’s name, and the number of likes.
+- User Profiles: Basic profiles showing the user's uploaded photos, a brief bio, and their total number of likes received.
+- Curated Content: A selection of standout photos or featured users could be highlighted to encourage higher engagement and showcase quality content.
 
 #### The Structure Plane
 
