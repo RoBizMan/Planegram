@@ -13,7 +13,7 @@ I have used the recommended [HTML W3C Validator](https://validator.w3.org) to va
 | --- | --- | --- |
 | Home | ![screenshot](documentation/testing/html_validation/homepage_html_validation.png) | Pass: No error found |
 | Login | ![screenshot](documentation/testing/html_validation/signin_html_validation.png) | Pass: No error found |
-| Sign Up | ![screenshot](documentation/testing/html_validation/signup_html_validation.png) | 4 errors |
+| Sign Up | ![screenshot](documentation/testing/html_validation/signup_html_validation.png) | 4 errors: The allauth signup template has known HTML validation errors |
 | Sign Out | ![screenshot](documentation/testing/html_validation/signout_html_validation.png) | Pass: No error found |
 | Grams | ![screenshot](documentation/testing/html_validation/grams_html_validation.png) | Pass: No error found |
 | Detailed Gram | ![screenshot](documentation/testing/html_validation/grams_6_html_validation.png) | Pass: No error found |
