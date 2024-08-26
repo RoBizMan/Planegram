@@ -416,6 +416,44 @@ INSTALLED_APPS = [
 ![erd](documentation/database_design/erd.png)
 source: [medium.com](https://medium.com/@yathomasi1/1-using-django-extensions-to-visualize-the-database-diagram-in-django-application-c5fa7e710e16)
 
+```mermaid
+erDiagram
+    User {
+        int id PK
+        string username
+        string email
+        string password
+    }
+    
+    Aircraft {
+        int id PK
+        string plane_make
+        string plane_model
+    }
+    
+    Gram {
+        int id PK
+        string caption
+        CloudinaryField image
+        date date_photographed
+        datetime created_on
+    }
+    
+    Report {
+        int id PK
+        string message
+        int decision
+        datetime date_reported
+    }
+
+    User ||--o{ Gram : photographer
+    Gram ||--o| Aircraft : plane
+    User ||--o{ Gram : love
+    User ||--o{ Report : submits
+    Gram ||--o| Report : has
+```
+source: [mermaid.live](https://mermaid.live/edit#pako:eNqNUk1vwjAM_StRzoBoaUvJbdq0HXaZNu0yISGvMRDRfChJtzHof1_aMj4ESOTgWH6Wn_3sDS00R8oo2gcBCwtyqkh47w4t2XR-84TyRHDy8nwIOW-FWpAqZCqQeAagBFGeRQ04960t74C6-zp7J2xhYe5v4zUlKJxJWOE1KAxWXqB5CkPeRlGA8UKrQ_y-1BUXCuz6UWDJiZCwOKLn4LE1M7PUXgc1zRL5Ke6FRFJYDC6f_dc-6e8VjbY3iiDRuZMWmlSOhXAnfe-J2-ZsS4CHFRytfLvt9_Wm04iRozHskXht0vawL9YpfrVMqb8ugLs5GXHVpxTenRPsM5bgaI9KtOGkeDjWVpsp9UsMd0dZcDnY1ZROVR3yoPL6ba0KyrytsEcr04y9O2_K5lC6EDWgKNvQH8qiUTQYT6JxMkomaZImWdqj6xDOB0k0jvMsjfIozdK87tFfrUOF4WASTbJhnI3iNI7TfBS15T5asOGs_wBwcQLs)
+
 ---
 
 ## Agile Development Process
@@ -668,6 +706,7 @@ There was no difference between local and deployment noticed.
 | [Real Python](https://realpython.com/testing-in-django-part-1-best-practices-and-examples/) | Backend only - Python | Testing in Django best practices and examples |
 | [django](https://docs.djangoproject.com/en/5.1/topics/testing/overview/) | Backend only - Python | django documentation writing and running tests |
 | [Alice Ridgway](https://alicecampkin.medium.com/django-testing-for-beginners-146bd285a178) | Backend only - Python | Django Testing for Beginners |
+| [mermaid.live](https://www.mermaidchart.com/) | README.md ERD diagram | Live ERD diagram for markdown |
 
 ### Media
 
