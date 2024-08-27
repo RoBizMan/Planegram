@@ -1,3 +1,6 @@
+/* jshint esversion: 11, node: true, browser: true */
+/* global test, describe, expect, beforeAll, beforeEach, jest */
+
 /**
  * @jest-environment jsdom
  */
