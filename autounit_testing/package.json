@@ -1,0 +1,23 @@
+{
+  "name": "planegram",
+  "version": "1.0.0",
+  "description": "[![GitHub commit activity](https://img.shields.io/github/commit-activity/t/RoBizMan/Planegram)](https://github.com/RoBizMan/Planegram/commits/main) [![GitHub last commit](https://img.shields.io/github/last-commit/RoBizMan/Planegram)](https://github.com/RoBizMan/Planegram/commits/main) [![GitHub repo size](https://img.shields.io/github/repo-size/RoBizMan/Planegram)](https://github.com/RoBizMan/Planegram)",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RoBizMan/Planegram.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RoBizMan/Planegram/issues"
+  },
+  "homepage": "https://github.com/RoBizMan/Planegram#readme",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0"
+  }
+}
