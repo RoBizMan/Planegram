@@ -178,6 +178,8 @@ I have conducted a series of automated tests on my application.
 
 I fully acknowledge and understand that, in a real-world scenario, an extensive set of additional tests would be more comprehensive.
 
+Automated testing files are stored in the separated folder called "autounit_testing" to prevent my main project from potential contamination/corruption by those automatic testing files when deploying to view a live site. Therefore, I stored these automatic testing files in the "autounit_testing" folder to be safe and separate from my main project.
+
 ### JavaScript (Jest Testing)
 
 I have used the [Jest](https://jestjs.io) JavaScript testing framework to test the application functionality.
@@ -191,53 +193,11 @@ Add Jest to a list called **Dev Dependencies** in a dev environment:
 
 - `npm install --save-dev jest`
 
-**IMPORTANT**: Initial configurations
-
-When creating test files, the name of the file needs to be `file-name.test.js` in order for Jest to properly work.
-
-Without the following, Jest won't properly run the tests:
-
-- `npm install -D jest-environment-jsdom`
-
-Due to a change in Jest's default configuration, you'll need to add the following code to the top of the `.test.js` file:
-
-```js
-/**
- * @jest-environment jsdom
- */
-
-const { test, expect } = require("@jest/globals");
-const { function1, function2, function3, etc. } = require("../script-name");
-
-beforeAll(() => {
-    let fs = require("fs");
-    let fileContents = fs.readFileSync("index.html", "utf-8");
-    document.open();
-    document.write(fileContents);
-    document.close();
-});
-```
-
-Remember to adjust the `fs.readFileSync()` to the specific file you'd like you test.
-The example above is testing the `index.html` file.
-
-Finally, at the bottom of the script file where your primary scripts are written, include the following at the bottom of the file.
-Make sure to include the name of all of your functions that are being tested in the `.test.js` file.
-
-```js
-if (typeof module !== "undefined") module.exports = {
-    function1, function2, function3, etc.
-};
-```
-
-Now that these steps have been undertaken, further tests can be written, and be expected to fail initially.
-Write JS code that can get the tests to pass as part of the Red-Green refactor process.
-
-Once ready, to run the tests, use this command:
+Once ready, to run the tests, I used this command:
 
 - `npm test`
 
-**NOTE**: To obtain a coverage report, use the following command:
+To obtain a coverage report, I used the following command:
 
 - `npm test --coverage`
 
@@ -249,7 +209,7 @@ Below are the results from the tests that I've written for this application:
 
 #### Jest Test Issues
 
-I've not encountered any issue as far as I am aware of.
+I've not encountered any issues, as far as I am aware.
 
 ### Python (Unit Testing)
 
@@ -294,8 +254,6 @@ Below are the results from the various apps on my application that I've tested:
 #### Unit Test Issues
 
 I've not encountered any issue as far as I am aware of.
-
----
 
 ## Bugs
 
