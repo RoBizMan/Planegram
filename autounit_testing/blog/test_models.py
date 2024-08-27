@@ -4,17 +4,25 @@ from django.core.exceptions import ValidationError
 from .models import Aircraft, Gram, Report
 import datetime
 
+
 class AircraftModelTest(TestCase):
     def setUp(self):
-        self.aircraft = Aircraft.objects.create(plane_make="Boeing", plane_model="747")
+        self.aircraft = Aircraft.objects.create(
+            plane_make="Boeing", plane_model="747"
+        )
 
     def test_aircraft_str(self):
         self.assertEqual(str(self.aircraft), "Boeing | 747")
 
+
 class GramModelTest(TestCase):
     def setUp(self):
-        self.user = User.objects.create_user(username='photographer', password='password')
-        self.aircraft = Aircraft.objects.create(plane_make="Boeing", plane_model="747")
+        self.user = User.objects.create_user(
+            username='photographer', password='password'
+        )
+        self.aircraft = Aircraft.objects.create(
+            plane_make="Boeing", plane_model="747"
+        )
         self.gram = Gram.objects.create(
             caption="First Flight",
             image="placeholder",
@@ -37,10 +45,15 @@ class GramModelTest(TestCase):
         with self.assertRaises(ValidationError):
             future_gram.full_clean()  # Use full_clean() to trigger validation
 
+
 class ReportModelTest(TestCase):
     def setUp(self):
-        self.user = User.objects.create_user(username='reporter', password='password')
-        self.aircraft = Aircraft.objects.create(plane_make="Boeing", plane_model="747")
+        self.user = User.objects.create_user(
+            username='reporter', password='password'
+        )
+        self.aircraft = Aircraft.objects.create(
+            plane_make="Boeing", plane_model="747"
+        )
         self.gram = Gram.objects.create(
             caption="First Flight",
             image="placeholder",
@@ -55,4 +68,7 @@ class ReportModelTest(TestCase):
         )
 
     def test_report_str(self):
-        self.assertEqual(str(self.report), f"Report on {self.gram} submitted by {self.user}")
+        self.assertEqual(
+            str(self.report),
+            f"Report on {self.gram} submitted by {self.user}"
+        )
