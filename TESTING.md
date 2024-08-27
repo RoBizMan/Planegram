@@ -255,6 +255,38 @@ Below are the results from the various apps on my application that I've tested:
 
 I've not encountered any issue as far as I am aware of.
 
+### Automatic Teting Files Code Validation
+
+#### JavaScript
+
+I have used the recommended [JShint Validator](https://jshint.com) to validate all of my JS files.
+
+| Directory | File | Screenshot | Notes |
+| --- | --- | --- | --- |
+| autounit_testing | script.test.js | ![screenshot](documentation/testing/autotesting_validation/autotest_jest_validation.png) | All clear, no errors found |
+
+---
+
+#### Python
+
+I have used the recommended [PEP8 CI Python Linter](https://pep8ci.herokuapp.com) to validate all of my Python files.
+
+| Directory | File | Screenshot | Notes |
+| --- | --- | --- | --- |
+| blog | test_models.py | ![screenshot](documentation/testing/autotesting_validation/autotest_pythonunit01_validation.png) | All clear, no errors found |
+| blog | test_urls.py | ![screenshot](documentation/testing/autotesting_validation/autotest_pythonunit02_validation.png) | All clear, no errors found |
+| blog | test_views.py | ![screenshot](documentation/testing/autotesting_validation/autotest_pythonunit03_validation.png) | All clear, no errors found |
+| grams | test_forms.py | ![screenshot](documentation/testing/autotesting_validation/autotest_pythonunit04_validation.png) | All clear, no errors found |
+| grams | test_urls.py | ![screenshot](documentation/testing/autotesting_validation/autotest_pythonunit05_validation.png) | All clear, no errors found |
+| grams | test_views.py | ![screenshot](documentation/testing/autotesting_validation/autotest_pythonunit06_validation.png) | All clear, no errors found |
+| planegram | test_urls.py | ![screenshot](documentation/testing/autotesting_validation/autotest_pythonunit07_validation.png) | All clear, no errors found |
+| planegram | test_views.py | ![screenshot](documentation/testing/autotesting_validation/autotest_pythonunit08_validation.png) | All clear, no errors found |
+| upload | test_forms.py | ![screenshot](documentation/testing/autotesting_validation/autotest_pythonunit09_validation.png) | All clear, no errors found |
+| upload | test_urls.py | ![screenshot](documentation/testing/autotesting_validation/autotest_pythonunit10_validation.png) | All clear, no errors found |
+| upload | test_views.py | ![screenshot](documentation/testing/autotesting_validation/autotest_pythonunit11_validation.png) | All clear, no errors found |
+
+---
+
 ## Bugs
 
 ### GitHub **Issues**
