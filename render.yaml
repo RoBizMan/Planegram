@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: planegram
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn planegram.wsgi
